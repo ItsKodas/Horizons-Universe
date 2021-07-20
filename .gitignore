@@ -1,1 +1,34 @@
 Nexus/
+
+Lobby/_CommonRedist/
+Lobby/appcache/
+Lobby/config/
+Lobby/Content/
+Lobby/DedicatedServer64/
+Lobby/Logs/
+Lobby/steamapps/
+Lobby/steamcmd/
+Lobby/TempContent/
+Lobby/tmp/
+
+Trade Center/_CommonRedist/
+Trade Center/appcache/
+Trade Center/config/
+Trade Center/Content/
+Trade Center/DedicatedServer64/
+Trade Center/Logs/
+Trade Center/steamapps/
+Trade Center/steamcmd/
+Trade Center/TempContent/
+Trade Center/tmp/
+
+Void/_CommonRedist/
+Void/appcache/
+Void/config/
+Void/Content/
+Void/DedicatedServer64/
+Void/Logs/
+Void/steamapps/
+Void/steamcmd/
+Void/TempContent/
+Void/tmp/
