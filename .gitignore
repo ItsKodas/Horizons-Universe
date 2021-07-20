@@ -11,16 +11,16 @@ Lobby/steamcmd/
 Lobby/TempContent/
 Lobby/tmp/
 
-Trade Center/_CommonRedist/
-Trade Center/appcache/
-Trade Center/config/
-Trade Center/Content/
-Trade Center/DedicatedServer64/
-Trade Center/Logs/
-Trade Center/steamapps/
-Trade Center/steamcmd/
-Trade Center/TempContent/
-Trade Center/tmp/
+Sol/_CommonRedist/
+Sol/appcache/
+Sol/config/
+Sol/Content/
+Sol/DedicatedServer64/
+Sol/Logs/
+Sol/steamapps/
+Sol/steamcmd/
+Sol/TempContent/
+Sol/tmp/
 
 Void/_CommonRedist/
 Void/appcache/
