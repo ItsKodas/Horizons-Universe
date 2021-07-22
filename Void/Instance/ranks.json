@@ -1,0 +1,16 @@
+[
+  {
+    "RankName": "Default",
+    "Prefix": "",
+    "DisplayPrefix": false,
+    "MaxHomes": 3,
+    "ReservedSlot": false,
+    "KeenLevelRank": "None",
+    "Permissions": {
+      "Allowed": [],
+      "Disallowed": []
+    },
+    "Inherits": [],
+    "PluginData": {}
+  }
+]

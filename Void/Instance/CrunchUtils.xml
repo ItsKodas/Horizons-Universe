@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlayerAlertEnabled>false</PlayerAlertEnabled>
+  <SecondsBetweenPlayerAlert>10</SecondsBetweenPlayerAlert>
+  <ShipSaleCommands>false</ShipSaleCommands>
+  <NobodyPatch>false</NobodyPatch>
+  <ShowFactionTagsOnDamageGrid>false</ShowFactionTagsOnDamageGrid>
+  <LogFactionStuff>true</LogFactionStuff>
+  <EconomyChangesInLog>true</EconomyChangesInLog>
+  <LogNeutralsDamagingEachOther>false</LogNeutralsDamagingEachOther>
+  <PcuCountShowProjPCU>true</PcuCountShowProjPCU>
+  <EcoChatMessages>true</EcoChatMessages>
+  <ScrapMetalPatch>false</ScrapMetalPatch>
+  <projectorOwnershipPatch>false</projectorOwnershipPatch>
+  <FixTradeStation>false</FixTradeStation>
+  <PlayerMakeShip>false</PlayerMakeShip>
+  <PlayerFixMe>false</PlayerFixMe>
+  <DeleteStone>false</DeleteStone>
+  <EcoWithdrawMax>2147483647</EcoWithdrawMax>
+  <DeleteStoneAuto>false</DeleteStoneAuto>
+  <Withdraw>false</Withdraw>
+  <facInfo>true</facInfo>
+  <PlayerEcoPay>false</PlayerEcoPay>
+  <Deposit>false</Deposit>
+  <convertInGravity>false</convertInGravity>
+  <FactionShareDeposit>true</FactionShareDeposit>
+  <IdentityUpdate>false</IdentityUpdate>
+  <Claim>false</Claim>
+  <ClaimOnlyForLeaders>true</ClaimOnlyForLeaders>
+  <ClaimPercent>70</ClaimPercent>
+  <CooldownInSeconds>600</CooldownInSeconds>
+  <RespawnCooldownInSeconds>1200</RespawnCooldownInSeconds>
+</ConfigFile>
