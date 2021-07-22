@@ -24,7 +24,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -113,7 +113,6 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>false</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>false</EnableSelectivePhysicsUpdates>
@@ -311,21 +310,6 @@
       <PublishedFileId>410678202</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Kimi &amp; Qun">
-      <Name>2459246911.sbm</Name>
-      <PublishedFileId>2459246911</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Luma">
-      <Name>2286318683.sbm</Name>
-      <PublishedFileId>2286318683</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Arkorus">
-      <Name>2108259024.sbm</Name>
-      <PublishedFileId>2108259024</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Rich HUD Master">
       <Name>1965654081.sbm</Name>
       <PublishedFileId>1965654081</PublishedFileId>
@@ -334,36 +318,6 @@
     <ModItem FriendlyName="MA Spotlight pack">
       <Name>1881158066.sbm</Name>
       <PublishedFileId>1881158066</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Demus">
-      <Name>1813330640.sbm</Name>
-      <PublishedFileId>1813330640</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Planet Crait less trees for MP">
-      <Name>2438497621.sbm</Name>
-      <PublishedFileId>2438497621</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Planet Segovia">
-      <Name>1562038029.sbm</Name>
-      <PublishedFileId>1562038029</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Satreus">
-      <Name>2266665708.sbm</Name>
-      <PublishedFileId>2266665708</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tohil">
-      <Name>2296726670.sbm</Name>
-      <PublishedFileId>2296726670</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Nekros">
-      <Name>2170073933.sbm</Name>
-      <PublishedFileId>2170073933</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="[SERVER] Gravel Sifter">
@@ -411,7 +365,38 @@
       <PublishedFileId>1992435623</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Tiered Stone Dusters">
+      <Name>1315723293.sbm</Name>
+      <PublishedFileId>1315723293</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Grated Catwalks Expansion">
+      <Name>2503712170.sbm</Name>
+      <PublishedFileId>2503712170</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More NPC Encounters V7 Faction Wars">
+      <Name>2315059547.sbm</Name>
+      <PublishedFileId>2315059547</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="NPC Weapon Upgrades">
+      <Name>1555044803.sbm</Name>
+      <PublishedFileId>1555044803</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Armor Expansion">
+      <Name>1939935505.sbm</Name>
+      <PublishedFileId>1939935505</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More Encounters - Content">
+      <Name>2411541991.sbm</Name>
+      <PublishedFileId>2411541991</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
   </Mods>
   <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
-  <LastSaveTime>2016-12-20T00:10:26.7717148+10:00</LastSaveTime>
+  <LastSaveTime>2021-07-22T16:38:41.5733039+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
