@@ -21,6 +21,7 @@ Sector/appcache/
 Sector/config/
 Sector/Content/
 Sector/DedicatedServer64/
+Sector/depotcache/
 Sector/Logs/
 Sector/steamapps/
 Sector/steamcmd/
@@ -28,12 +29,14 @@ Sector/TempContent/
 Sector/tmp/
 Sector/Instance/FoogsRewards.cfg
 Sector/Instance/*.log
+Sector/Instance/Saves/
 
 Void/_CommonRedist/
 Void/appcache/
 Void/config/
 Void/Content/
 Void/DedicatedServer64/
+Void/depotcache/
 Void/Logs/
 Void/steamapps/
 Void/steamcmd/
@@ -41,3 +44,4 @@ Void/TempContent/
 Void/tmp/
 Void/Instance/FoogsRewards.cfg
 Void/Instance/*.log
+Void/Instance/Saves/
