@@ -1,5 +1,9 @@
 Nexus/
 
+Game Backups/Lobby/
+Game Backups/Deepspace/
+Game Backups/Sector/
+
 Lobby/_CommonRedist/
 Lobby/appcache/
 Lobby/config/
@@ -11,16 +15,17 @@ Lobby/steamcmd/
 Lobby/TempContent/
 Lobby/tmp/
 
-Sol/_CommonRedist/
-Sol/appcache/
-Sol/config/
-Sol/Content/
-Sol/DedicatedServer64/
-Sol/Logs/
-Sol/steamapps/
-Sol/steamcmd/
-Sol/TempContent/
-Sol/tmp/
+Sector/_CommonRedist/
+Sector/appcache/
+Sector/config/
+Sector/Content/
+Sector/DedicatedServer64/
+Sector/Logs/
+Sector/steamapps/
+Sector/steamcmd/
+Sector/TempContent/
+Sector/tmp/
+Sector/Instance/FoogsRewards.cfg
 
 Void/_CommonRedist/
 Void/appcache/
@@ -32,3 +37,4 @@ Void/steamapps/
 Void/steamcmd/
 Void/TempContent/
 Void/tmp/
+Void/Instance/FoogsRewards.cfg
