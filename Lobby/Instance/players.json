@@ -1,0 +1,21 @@
+[
+  {
+    "Player": "Koda",
+    "SteamID": 76561198138366099,
+    "IdentityID": 0,
+    "Rank": "Default",
+    "KnownIps": [
+      "10.0.1.1"
+    ],
+    "DiscordData": {
+      "DiscordName": null,
+      "DiscordID": 0,
+      "Roles": {}
+    },
+    "Permissions": {
+      "Allowed": [],
+      "Disallowed": []
+    },
+    "Homes": {}
+  }
+]
