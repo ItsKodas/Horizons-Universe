@@ -9,12 +9,14 @@ Lobby/appcache/
 Lobby/config/
 Lobby/Content/
 Lobby/DedicatedServer64/
+Lobby/depotcache/
 Lobby/Logs/
 Lobby/steamapps/
 Lobby/steamcmd/
 Lobby/TempContent/
 Lobby/tmp/
 Lobby/Instance/*.log
+Lobby/Instance/Content/
 
 Sector/_CommonRedist/
 Sector/appcache/
@@ -29,6 +31,7 @@ Sector/TempContent/
 Sector/tmp/
 Sector/Instance/FoogsRewards.cfg
 Sector/Instance/*.log
+Sector/Instance/Content/
 Sector/Instance/Saves/
 
 Void/_CommonRedist/
@@ -44,4 +47,5 @@ Void/TempContent/
 Void/tmp/
 Void/Instance/FoogsRewards.cfg
 Void/Instance/*.log
+Void/Instance/Content/
 Void/Instance/Saves/
