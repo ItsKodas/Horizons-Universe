@@ -29,6 +29,9 @@ Sector/steamapps/
 Sector/steamcmd/
 Sector/TempContent/
 Sector/tmp/
+Sector/Instance/Storage/1918681825.sbm_WeaponCore/
+Sector/Instance/Storage/*.log
+Sector/Instance/Storage/*.txt
 Sector/Instance/FoogsRewards.cfg
 Sector/Instance/*.log
 Sector/Instance/Content/
@@ -45,6 +48,9 @@ Void/steamapps/
 Void/steamcmd/
 Void/TempContent/
 Void/tmp/
+Void/Instance/Storage/1918681825.sbm_WeaponCore/
+Void/Instance/Storage/*.log
+Void/Instance/Storage/*.txt
 Void/Instance/FoogsRewards.cfg
 Void/Instance/*.log
 Void/Instance/Content/
