@@ -7,10 +7,5 @@ C:/Applications/wget.exe https://build.torchapi.net/job/Torch/job/Torch/job/mast
 powershell Expand-Archive -Force torch-server.zip ./
 del torch-server.zip
 
-powershell move "Torch.Server.exe" "Sector.Server.exe" -force
-powershell move "Torch.Server.exe.config" "Sector.Server.exe.config" -force
-powershell move "Torch.Server.pdb" "Sector.Server.pdb" -force
-powershell move "Torch.Server.xml" "Sector.Server.xml" -force
-
-start Sector.Server.exe -autostart
+start Torch.Server.exe -autostart
 exit
