@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SyncModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>4</Version>
+  <DisableLocalization>false</DisableLocalization>
+  <LogLevel>Error</LogLevel>
+  <MaxBackgroundTasks>4</MaxBackgroundTasks>
+  <Range>150</Range>
+  <MaximumOffset>100</MaximumOffset>
+  <SourcesAndTargetsUpdateIntervalTicks>100000000</SourcesAndTargetsUpdateIntervalTicks>
+  <MaximumRequiredElectricPowerStandby>2E-05</MaximumRequiredElectricPowerStandby>
+  <MaximumRequiredElectricPowerTransport>0.01</MaximumRequiredElectricPowerTransport>
+  <Drill>
+    <MaximumRequiredElectricPowerDrilling>0.0015</MaximumRequiredElectricPowerDrilling>
+    <MaximumRequiredElectricPowerFilling>0.15</MaximumRequiredElectricPowerFilling>
+    <DrillingMultiplier>1</DrillingMultiplier>
+    <FillingMultiplier>1</FillingMultiplier>
+    <AllowedWorkModes>Drill Collect Fill</AllowedWorkModes>
+    <WorkModeDefault>Drill</WorkModeDefault>
+    <ShowAreaFixed>false</ShowAreaFixed>
+    <AreaSizeFixed>false</AreaSizeFixed>
+    <AreaOffsetFixed>false</AreaOffsetFixed>
+    <DrillPriorityFixed>false</DrillPriorityFixed>
+    <CollectPriorityFixed>false</CollectPriorityFixed>
+    <CollectIfIdleFixed>false</CollectIfIdleFixed>
+    <CollectIfIdleDefault>false</CollectIfIdleDefault>
+    <RemoteControlledFixed>false</RemoteControlledFixed>
+    <SoundVolumeFixed>false</SoundVolumeFixed>
+    <SoundVolumeDefault>1</SoundVolumeDefault>
+    <ScriptControllFixed>false</ScriptControllFixed>
+    <AllowedEffects>DrillingVisualEffect DrillingSoundEffect FillingVisualEffect FillingSoundEffect TransportVisualEffect</AllowedEffects>
+  </Drill>
+</SyncModSettings>

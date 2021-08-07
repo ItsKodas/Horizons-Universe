@@ -1,0 +1,1072 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>1342560000</ElapsedGameTime>
+  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
+  <SpectatorPosition>
+    <Position x="-0.32934382554148806" y="-0.074394008015407867" z="1.5750704078872861" />
+    <Forward x="0.145073712" y="0.6612421" z="-0.7360112" />
+    <Up x="0.668944657" y="0.482549965" z="0.565383554" />
+    <Orientation>
+      <X>0.35723117</X>
+      <Y>0.06618376</Y>
+      <Z>-0.3620924</Z>
+      <W>0.8584257</W>
+    </Orientation>
+  </SpectatorPosition>
+  <SpectatorSpeed x="0.1" y="1" />
+  <SpectatorIsLightOn>false</SpectatorIsLightOn>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>124168712738897777</CameraEntity>
+  <ControlledObject>124168712738897777</ControlledObject>
+  <Password />
+  <Description />
+  <LastSaveTime>2016-12-20T00:10:26.7717148+10:00</LastSaveTime>
+  <SpectatorDistance>2.6</SpectatorDistance>
+  <WorkshopId xsi:nil="true" />
+  <WorkshopId1 xsi:nil="true" />
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>8</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+        </Data>
+      </Slot>
+    </Slots>
+    <SlotsGamepad />
+  </CharacterToolbar>
+  <ControlledEntities>
+    <dictionary>
+      <item>
+        <Key>124168712738897777</Key>
+        <Value>
+          <ClientId>76561197967630685</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>0</HashedId>
+        </Value>
+      </item>
+    </dictionary>
+  </ControlledEntities>
+  <Settings xsi:type="MyObjectBuilder_SessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>30</InventorySizeMultiplier>
+    <BlocksInventorySizeMultiplier>3</BlocksInventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
+    <OnlineMode>PUBLIC</OnlineMode>
+    <MaxPlayers>50</MaxPlayers>
+    <MaxFloatingObjects>56</MaxFloatingObjects>
+    <MaxBackupSaves>3</MaxBackupSaves>
+    <MaxGridSize>25000</MaxGridSize>
+    <MaxBlocksPerPlayer>50000</MaxBlocksPerPlayer>
+    <TotalPCU>0</TotalPCU>
+    <PiratePCU>500000</PiratePCU>
+    <MaxFactionsCount>0</MaxFactionsCount>
+    <BlockLimitsEnabled>PER_PLAYER</BlockLimitsEnabled>
+    <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>false</AutoHealing>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>true</ThrusterDamage>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <EnableSpectator>false</EnableSpectator>
+    <WorldSizeKm>0</WorldSizeKm>
+    <RespawnShipDelete>false</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+    <WelderSpeedMultiplier>3</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>3</GrinderSpeedMultiplier>
+    <RealisticSound>false</RealisticSound>
+    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <PermanentDeath>false</PermanentDeath>
+    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <EnableSaving>true</EnableSaving>
+    <InfiniteAmmo>false</InfiniteAmmo>
+    <EnableContainerDrops>true</EnableContainerDrops>
+    <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
+    <ProceduralDensity>0.2</ProceduralDensity>
+    <ProceduralSeed>0</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <EnableIngameScripts>true</EnableIngameScripts>
+    <ViewDistance>5000</ViewDistance>
+    <EnableToolShake>true</EnableToolShake>
+    <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
+    <EnableOxygen>true</EnableOxygen>
+    <EnableOxygenPressurization>true</EnableOxygenPressurization>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableEncounters>false</EnableEncounters>
+    <EnableConvertToStation>true</EnableConvertToStation>
+    <StationVoxelSupport>false</StationVoxelSupport>
+    <EnableSunRotation>true</EnableSunRotation>
+    <EnableRespawnShips>false</EnableRespawnShips>
+    <ScenarioEditMode>false</ScenarioEditMode>
+    <Scenario>false</Scenario>
+    <CanJoinRunning>false</CanJoinRunning>
+    <PhysicsIterations>8</PhysicsIterations>
+    <SunRotationIntervalMinutes>119.999992</SunRotationIntervalMinutes>
+    <EnableJetpack>true</EnableJetpack>
+    <SpawnWithTools>true</SpawnWithTools>
+    <StartInRespawnScreen>false</StartInRespawnScreen>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <MaxDrones>5</MaxDrones>
+    <EnableDrones>true</EnableDrones>
+    <EnableWolfs>false</EnableWolfs>
+    <EnableSpiders>false</EnableSpiders>
+    <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <BlockTypeLimits>
+      <dictionary />
+    </BlockTypeLimits>
+    <EnableScripterRole>false</EnableScripterRole>
+    <MinDropContainerRespawnTime>5</MinDropContainerRespawnTime>
+    <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
+    <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
+    <EnableSubgridDamage>false</EnableSubgridDamage>
+    <SyncDistance>10000</SyncDistance>
+    <ExperimentalMode>true</ExperimentalMode>
+    <AdaptiveSimulationQuality>false</AdaptiveSimulationQuality>
+    <EnableVoxelHand>true</EnableVoxelHand>
+    <RemoveOldIdentitiesH>0</RemoveOldIdentitiesH>
+    <TrashRemovalEnabled>false</TrashRemovalEnabled>
+    <StopGridsPeriodMin>15</StopGridsPeriodMin>
+    <TrashFlagsValue>7706</TrashFlagsValue>
+    <AFKTimeountMin>0</AFKTimeountMin>
+    <BlockCountThreshold>20</BlockCountThreshold>
+    <PlayerDistanceThreshold>500</PlayerDistanceThreshold>
+    <OptimalGridCount>0</OptimalGridCount>
+    <PlayerInactivityThreshold>0</PlayerInactivityThreshold>
+    <PlayerCharacterRemovalThreshold>15</PlayerCharacterRemovalThreshold>
+    <VoxelTrashRemovalEnabled>true</VoxelTrashRemovalEnabled>
+    <VoxelPlayerDistanceThreshold>5000</VoxelPlayerDistanceThreshold>
+    <VoxelGridDistanceThreshold>5000</VoxelGridDistanceThreshold>
+    <VoxelAgeThreshold>24</VoxelAgeThreshold>
+    <EnableResearch>false</EnableResearch>
+    <EnableGoodBotHints>false</EnableGoodBotHints>
+    <OptimalSpawnDistance>16000</OptimalSpawnDistance>
+    <EnableAutorespawn>false</EnableAutorespawn>
+    <EnableBountyContracts>true</EnableBountyContracts>
+    <EnableSupergridding>false</EnableSupergridding>
+    <EnableEconomy>true</EnableEconomy>
+    <DepositsCountCoefficient>2</DepositsCountCoefficient>
+    <DepositSizeDenominator>30</DepositSizeDenominator>
+    <WeatherSystem>true</WeatherSystem>
+    <HarvestRatioMultiplier>1</HarvestRatioMultiplier>
+    <TradeFactionsCount>10</TradeFactionsCount>
+    <StationsDistanceInnerRadius>10000000</StationsDistanceInnerRadius>
+    <StationsDistanceOuterRadiusStart>10000000</StationsDistanceOuterRadiusStart>
+    <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
+    <EconomyTickInSeconds>1200</EconomyTickInSeconds>
+    <SimplifiedSimulation>false</SimplifiedSimulation>
+    <SuppressedWarnings />
+    <EnablePcuTrading>false</EnablePcuTrading>
+    <FamilySharing>true</FamilySharing>
+    <EnableSelectivePhysicsUpdates>false</EnableSelectivePhysicsUpdates>
+    <PredefinedAsteroids>true</PredefinedAsteroids>
+    <UseConsolePCU>false</UseConsolePCU>
+    <MaxPlanets>99</MaxPlanets>
+    <OffensiveWordsFiltering>false</OffensiveWordsFiltering>
+    <AdjustableMaxVehicleSpeed>true</AdjustableMaxVehicleSpeed>
+    <EnableMatchComponent>false</EnableMatchComponent>
+    <PreMatchDuration>0</PreMatchDuration>
+    <MatchDuration>0</MatchDuration>
+    <PostMatchDuration>0</PostMatchDuration>
+    <EnableFriendlyFire>true</EnableFriendlyFire>
+    <EnableTeamBalancing>false</EnableTeamBalancing>
+    <CharacterSpeedMultiplier>1</CharacterSpeedMultiplier>
+    <EnableRecoil>true</EnableRecoil>
+    <EnvironmentDamageMultiplier>1</EnvironmentDamageMultiplier>
+    <EnableGamepadAimAssist>false</EnableGamepadAimAssist>
+    <BackpackDespawnTimer>5</BackpackDespawnTimer>
+    <EnableFactionPlayerNames>false</EnableFactionPlayerNames>
+  </Settings>
+  <ScriptManagerData>
+    <variables>
+      <dictionary>
+        <item>
+          <Key>MidspaceEnvironmentComponent</Key>
+          <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;MidspaceEnvironmentComponent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;LargeShipMaxSpeed&gt;300&lt;/LargeShipMaxSpeed&gt;
+  &lt;SmallShipMaxSpeed&gt;300&lt;/SmallShipMaxSpeed&gt;
+  &lt;Version&gt;20171125&lt;/Version&gt;
+  &lt;EnableThrustRatio&gt;false&lt;/EnableThrustRatio&gt;
+  &lt;ThrustRatio&gt;1&lt;/ThrustRatio&gt;
+  &lt;GyroPowerMod&gt;1&lt;/GyroPowerMod&gt;
+  &lt;IonAirEfficient&gt;0&lt;/IonAirEfficient&gt;
+  &lt;AtmosphereSpaceEfficient&gt;0&lt;/AtmosphereSpaceEfficient&gt;
+  &lt;MissileMinSpeed&gt;100&lt;/MissileMinSpeed&gt;
+  &lt;MissileMaxSpeed&gt;200&lt;/MissileMaxSpeed&gt;
+  &lt;RemoteControlMaxSpeed&gt;100&lt;/RemoteControlMaxSpeed&gt;
+  &lt;ContainerDropDeployHeight&gt;200&lt;/ContainerDropDeployHeight&gt;
+  &lt;RespawnShipDeployHeight&gt;300&lt;/RespawnShipDeployHeight&gt;
+&lt;/MidspaceEnvironmentComponent&gt;</Value>
+        </item>
+        <item>
+          <Key>MES-FixedDefaultNpcRelations</Key>
+          <Value xsi:type="xsd:string">CiUxNDQxMTUxODgwNzU4NTU5MTUtMjgyODIwODQxNzY3MDIxNTM2CiUxNDQxMTUxODgwNzU4NTU5MTUtMjgxMzEwNzY2OTI2ODc4MjMwCiUxNDQxMTUxODgwNzU4NTU5MTUtMjg3MDE3MDU5OTI5NjcxMDAxCiUxNDQxMTUxODgwNzU4NTU5MTUtMjE2MjM1MTY1OTE2Njc5NDE5CiUxNDQxMTUxODgwNzU4NTU5MTUtMjI4MDU1NjM2NDc0ODg1Mzk4CiUxNDQxMTUxODgwNzU4NTU5MTUtMjcyOTQ5NjQ2MzA2NTg5NDEwCiUxNDQxMTUxODgwNzU4NTU5MTUtMjU1OTMzNDAyOTQ3Njk3MDc3</Value>
+        </item>
+      </dictionary>
+    </variables>
+  </ScriptManagerData>
+  <AppVersion>1166003</AppVersion>
+  <Factions>
+    <Factions>
+      <MyObjectBuilder_Faction>
+        <FactionId>258961289160008772</FactionId>
+        <Tag>SPRT</Tag>
+        <Name>Space Pirates</Name>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855896</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+        <FactionType>None</FactionType>
+        <Stations />
+        <CustomColor x="0" y="0" z="0" />
+        <IconColor x="0" y="0" z="0" />
+        <TransferedPCUDelta>0</TransferedPCUDelta>
+        <Score>0</Score>
+        <ObjectivePercentageCompleted>0</ObjectivePercentageCompleted>
+      </MyObjectBuilder_Faction>
+    </Factions>
+    <Players>
+      <dictionary>
+        <item>
+          <Key>144115188075855896</Key>
+          <Value>258961289160008772</Value>
+        </item>
+      </dictionary>
+    </Players>
+    <Relations />
+    <RelationsWithPlayers />
+    <Requests />
+    <PlayerToFactionsVis />
+  </Factions>
+  <Mods>
+    <ModItem FriendlyName="NexusSyncMod">
+      <Name>2272613450.sbm</Name>
+      <PublishedFileId>2272613450</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Automatic Ore Pickup">
+      <Name>657749341.sbm</Name>
+      <PublishedFileId>657749341</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="BuildInfo (extra block+terminal info, air leak finder)">
+      <Name>514062285.sbm</Name>
+      <PublishedFileId>514062285</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Defense Shields - v2.0(23)">
+      <Name>1365616918.sbm</Name>
+      <PublishedFileId>1365616918</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="HUD Compass">
+      <Name>1469072169.sbm</Name>
+      <PublishedFileId>1469072169</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="MA PocketGear">
+      <Name>1441952717.sbm</Name>
+      <PublishedFileId>1441952717</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="MA Pole Parts">
+      <Name>2302105467.sbm</Name>
+      <PublishedFileId>2302105467</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More Wind Turbines (Update)">
+      <Name>1728125712.sbm</Name>
+      <PublishedFileId>1728125712</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="PassageIntersections">
+      <Name>946724937.sbm</Name>
+      <PublishedFileId>946724937</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Hacking Computer v3">
+      <Name>728555954.sbm</Name>
+      <PublishedFileId>728555954</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Conveyor Expansion">
+      <Name>1864380341.sbm</Name>
+      <PublishedFileId>1864380341</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="(Patch) Nanobot Drill And Fill System">
+      <Name>2562768059.sbm</Name>
+      <PublishedFileId>2562768059</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+    <ModItem FriendlyName="Nanobot Drill and Fill System">
+      <Name>1879455650.sbm</Name>
+      <PublishedFileId>1879455650</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="(Patch) Nanobot Build And Repair System">
+      <Name>2562491248.sbm</Name>
+      <PublishedFileId>2562491248</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+    <ModItem FriendlyName="Nanobot Build and Repair System">
+      <Name>857053359.sbm</Name>
+      <PublishedFileId>857053359</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[v6.5.3] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
+      <Name>691529112.sbm</Name>
+      <PublishedFileId>691529112</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SmartRotors: Solar">
+      <Name>1728457223.sbm</Name>
+      <PublishedFileId>1728457223</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Edge Be Gone! (No armor edges)">
+      <Name>2042716312.sbm</Name>
+      <PublishedFileId>2042716312</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="EZGPS - A Better way to Navigate in Space">
+      <Name>1480940163.sbm</Name>
+      <PublishedFileId>1480940163</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Clean Assembler Tab">
+      <Name>2115568523.sbm</Name>
+      <PublishedFileId>2115568523</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
+      <Name>806331071.sbm</Name>
+      <PublishedFileId>806331071</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Midspace's Configurable Max Ship Speed Mod [EOL]">
+      <Name>599536562.sbm</Name>
+      <PublishedFileId>599536562</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Norca Engineers HUD - Coloured - 1.197">
+      <Name>1682356734.sbm</Name>
+      <PublishedFileId>1682356734</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Projections To Assembler">
+      <Name>1289485324.sbm</Name>
+      <PublishedFileId>1289485324</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Screen Gunk Be Gone!">
+      <Name>1289657379.sbm</Name>
+      <PublishedFileId>1289657379</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[VSI] Recolorable Thrusters">
+      <Name>1354870812.sbm</Name>
+      <PublishedFileId>1354870812</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Viable Hydrogen">
+      <Name>1905243833.sbm</Name>
+      <PublishedFileId>1905243833</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Sequence Nebula - SD">
+      <Name>2223671641.sbm</Name>
+      <PublishedFileId>2223671641</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Text HUD API">
+      <Name>758597413.sbm</Name>
+      <PublishedFileId>758597413</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Autofill Bottles">
+      <Name>2308085590.sbm</Name>
+      <PublishedFileId>2308085590</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Colorful Icons">
+      <Name>801185519.sbm</Name>
+      <PublishedFileId>801185519</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Rotary Airlock">
+      <Name>1359954841.sbm</Name>
+      <PublishedFileId>1359954841</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="WeaponCore - 1.7(12)">
+      <Name>1918681825.sbm</Name>
+      <PublishedFileId>1918681825</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Sneaky Sounds - Quieter Tools">
+      <Name>1662953858.sbm</Name>
+      <PublishedFileId>1662953858</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Build Vision 2.5">
+      <Name>1697184408.sbm</Name>
+      <PublishedFileId>1697184408</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Whip's Camera Overlay">
+      <Name>704012607.sbm</Name>
+      <PublishedFileId>704012607</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Conveyor Air Vent - full sized block (and slope!)">
+      <Name>410678202.sbm</Name>
+      <PublishedFileId>410678202</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Kimi &amp; Qun">
+      <Name>2459246911.sbm</Name>
+      <PublishedFileId>2459246911</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Luma">
+      <Name>2286318683.sbm</Name>
+      <PublishedFileId>2286318683</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Arkorus">
+      <Name>2108259024.sbm</Name>
+      <PublishedFileId>2108259024</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Rich HUD Master">
+      <Name>1965654081.sbm</Name>
+      <PublishedFileId>1965654081</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="MA Spotlight pack">
+      <Name>1881158066.sbm</Name>
+      <PublishedFileId>1881158066</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Demus">
+      <Name>1813330640.sbm</Name>
+      <PublishedFileId>1813330640</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Planet Crait less trees for MP">
+      <Name>2438497621.sbm</Name>
+      <PublishedFileId>2438497621</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Planet Segovia">
+      <Name>1562038029.sbm</Name>
+      <PublishedFileId>1562038029</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Satreus">
+      <Name>2266665708.sbm</Name>
+      <PublishedFileId>2266665708</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Tohil">
+      <Name>2296726670.sbm</Name>
+      <PublishedFileId>2296726670</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Nekros">
+      <Name>2170073933.sbm</Name>
+      <PublishedFileId>2170073933</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[SERVER] Gravel Sifter">
+      <Name>2474017247.sbm</Name>
+      <PublishedFileId>2474017247</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Halo UNSC Ship Weapons (WeaponCore)">
+      <Name>2286546132.sbm</Name>
+      <PublishedFileId>2286546132</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Modular Encounters Spawner">
+      <Name>1521905890.sbm</Name>
+      <PublishedFileId>1521905890</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Corruption PvE Combat">
+      <Name>914369510.sbm</Name>
+      <PublishedFileId>914369510</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Assertive Installations">
+      <Name>1464803311.sbm</Name>
+      <PublishedFileId>1464803311</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Abandoned Settlements">
+      <Name>2310821218.sbm</Name>
+      <PublishedFileId>2310821218</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="RivalAI">
+      <Name>2043543925.sbm</Name>
+      <PublishedFileId>2043543925</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Surface Occupation">
+      <Name>1135484957.sbm</Name>
+      <PublishedFileId>1135484957</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Perpetually Perturbed Pirates">
+      <Name>1992435623.sbm</Name>
+      <PublishedFileId>1992435623</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Build and Repair Patch">
+      <Name>2562491248.sbm</Name>
+      <PublishedFileId>2562491248</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+    <ModItem FriendlyName="Drill and Fill Patch">
+      <Name>2562768059.sbm</Name>
+      <PublishedFileId>2562768059</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
+    </ModItem>
+  </Mods>
+  <PromotedUsers>
+    <dictionary />
+  </PromotedUsers>
+  <CreativeTools />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
+  <RespawnCooldowns />
+  <Identities>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855895</IdentityId>
+      <DisplayName>Skinface</DisplayName>
+      <CharacterEntityId>124168712738897777</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="0" z="0.05" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2016-12-20T00:09:41.8652246+10:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855896</IdentityId>
+      <DisplayName>Space Pirates</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2016-12-20T00:09:41.8772258+10:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
+    </MyObjectBuilder_Identity>
+  </Identities>
+  <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
+  <AllPlayersData>
+    <dictionary>
+      <item>
+        <Key>
+          <ClientId>76561197967630685</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>0</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Skinface</DisplayName>
+          <IdentityId>144115188075855895</IdentityId>
+          <Connected>true</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.799999952</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.81</Y>
+              <Z>-0.13</Z>
+            </Vector3>
+          </BuildColorSlots>
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+    </dictionary>
+  </AllPlayersData>
+  <AllPlayersColors>
+    <dictionary>
+      <item>
+        <Key>
+          <ClientId>76561197996829390</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>0</HashedId>
+        </Key>
+        <Value>
+          <Vector3>
+            <X>0</X>
+            <Y>-1</Y>
+            <Z>0</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0.05</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.333333343</X>
+            <Y>-0.48</Y>
+            <Z>-0.25</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.575</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.122222222</X>
+            <Y>-0.1</Y>
+            <Z>0.26</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>-0.95</Y>
+            <Z>0.4</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>-0.96</Y>
+            <Z>-0.5</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>-0.85</Y>
+            <Z>0.2</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>0.15</Y>
+            <Z>0.25</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.333333343</X>
+            <Y>-0.329999983</Y>
+            <Z>-0.049999997</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.575</X>
+            <Y>0.15</Y>
+            <Z>0.2</Z>
+          </Vector3>
+          <Vector3>
+            <X>0.122222222</X>
+            <Y>0.0500000045</Y>
+            <Z>0.459999979</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>-0.799999952</Y>
+            <Z>0.6</Z>
+          </Vector3>
+          <Vector3>
+            <X>0</X>
+            <Y>-0.809999943</Y>
+            <Z>-0.3</Z>
+          </Vector3>
+        </Value>
+      </item>
+    </dictionary>
+  </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
+  <NonPlayerIdentities>
+    <long>144115188075855896</long>
+  </NonPlayerIdentities>
+  <Gps>
+    <dictionary />
+  </Gps>
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_LocalizationSessionComponent">
+      <AdditionalPaths />
+      <CampaignPaths />
+      <CampaignModFolderName />
+      <Language>English</Language>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SharedStorageComponent">
+      <BoolStorage>
+        <dictionary />
+      </BoolStorage>
+      <IntStorage>
+        <dictionary />
+      </IntStorage>
+      <LongStorage>
+        <dictionary />
+      </LongStorage>
+      <ULongStorage>
+        <dictionary />
+      </ULongStorage>
+      <StringStorage>
+        <dictionary />
+      </StringStorage>
+      <FloatStorage>
+        <dictionary />
+      </FloatStorage>
+      <Vector3DStorage>
+        <dictionary />
+      </Vector3DStorage>
+      <BoolListStorage>
+        <dictionary />
+      </BoolListStorage>
+      <IntListStorage>
+        <dictionary />
+      </IntListStorage>
+      <LongListStorage>
+        <dictionary />
+      </LongListStorage>
+      <ULongListStorage>
+        <dictionary />
+      </ULongListStorage>
+      <StringListStorage>
+        <dictionary />
+      </StringListStorage>
+      <FloatListStorage>
+        <dictionary />
+      </FloatListStorage>
+      <Vector3DListStorage>
+        <dictionary />
+      </Vector3DListStorage>
+      <BoolStorageSecondary>
+        <dictionary />
+      </BoolStorageSecondary>
+      <IntStorageSecondary>
+        <dictionary />
+      </IntStorageSecondary>
+      <LongStorageSecondary>
+        <dictionary />
+      </LongStorageSecondary>
+      <ULongStorageSecondary>
+        <dictionary />
+      </ULongStorageSecondary>
+      <StringStorageSecondary>
+        <dictionary />
+      </StringStorageSecondary>
+      <FloatStorageSecondary>
+        <dictionary />
+      </FloatStorageSecondary>
+      <Vector3DStorageSecondary>
+        <dictionary />
+      </Vector3DStorageSecondary>
+      <BoolListStorageSecondary>
+        <dictionary />
+      </BoolListStorageSecondary>
+      <IntListStorageSecondary>
+        <dictionary />
+      </IntListStorageSecondary>
+      <LongListStorageSecondary>
+        <dictionary />
+      </LongListStorageSecondary>
+      <ULongListStorageSecondary>
+        <dictionary />
+      </ULongListStorageSecondary>
+      <StringListStorageSecondary>
+        <dictionary />
+      </StringListStorageSecondary>
+      <FloatListStorageSecondary>
+        <dictionary />
+      </FloatListStorageSecondary>
+      <Vector3DListStorageSecondary>
+        <dictionary />
+      </Vector3DListStorageSecondary>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_VisualScriptManagerSessionComponent">
+      <FirstRun>false</FirstRun>
+      <LevelScriptFiles xsi:nil="true" />
+      <StateMachines xsi:nil="true" />
+      <ScriptStateMachineManager>
+        <ActiveStateMachines />
+      </ScriptStateMachineManager>
+      <Questlog>
+        <LineData />
+        <Title>Prepare to Leave the Escape Pod</Title>
+        <Visible>true</Visible>
+        <IsUsedByVisualScripting>false</IsUsedByVisualScripting>
+      </Questlog>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
+      <SpawnInfos />
+      <TimeoutInfos />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CampaignSessionComponent">
+      <IsVanilla>false</IsVanilla>
+      <Mod />
+      <CustomRespawnEnabled>false</CustomRespawnEnabled>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
+      <TimeSinceLastEventInMs>30963</TimeSinceLastEventInMs>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
+      <LastCoordSysId>2</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
+      <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
+      <SunDirectionNormalized x="0" y="0" z="0" />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CutsceneSessionComponent">
+      <Cutscenes />
+      <VoxelPrecachingWaypointNames />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentResearch">
+      <WhitelistMode>false</WhitelistMode>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters">
+      <SavedEncounters />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
+      <MarkedAreas />
+      <DeletedAreas />
+      <ExistingObjectsSeeds />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855896</PiratesIdentity>
+      <Drones />
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <GameDefinition Type="MyObjectBuilder_GameDefinition" Subtype="Default" />
+  <SessionComponentEnabled />
+  <SessionComponentDisabled />
+  <InGameTime>2081-01-01T07:00:00</InGameTime>
+  <CustomSkybox />
+  <VicinityModelsCache />
+  <VicinityArmorModelsCache />
+  <VicinityVoxelCache />
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
+</MyObjectBuilder_Checkpoint>

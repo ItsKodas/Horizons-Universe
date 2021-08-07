@@ -24,7 +24,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -113,7 +113,6 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>false</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>false</EnableSelectivePhysicsUpdates>
@@ -191,19 +190,14 @@
       <PublishedFileId>1864380341</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Nanobot Drill and Fill System">
-      <Name>1879455650.sbm</Name>
-      <PublishedFileId>1879455650</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="(Patch) Nanobot Drill And Fill System">
       <Name>2562768059.sbm</Name>
       <PublishedFileId>2562768059</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Nanobot Build and Repair System">
-      <Name>857053359.sbm</Name>
-      <PublishedFileId>857053359</PublishedFileId>
+    <ModItem FriendlyName="Nanobot Drill and Fill System">
+      <Name>1879455650.sbm</Name>
+      <PublishedFileId>1879455650</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="(Patch) Nanobot Build And Repair System">
@@ -211,7 +205,12 @@
       <PublishedFileId>2562491248</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="[v6.5.3] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
+    <ModItem FriendlyName="Nanobot Build and Repair System">
+      <Name>857053359.sbm</Name>
+      <PublishedFileId>857053359</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[v6.5.7] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
       <Name>691529112.sbm</Name>
       <PublishedFileId>691529112</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -409,5 +408,5 @@
     </ModItem>
   </Mods>
   <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
-  <LastSaveTime>2021-08-03T19:09:44.579398+10:00</LastSaveTime>
+  <LastSaveTime>2021-08-04T16:33:04.9750686+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
