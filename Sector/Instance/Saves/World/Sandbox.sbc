@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>23890000000</ElapsedGameTime>
-  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
+  <ElapsedGameTime>13900000000</ElapsedGameTime>
+  <SessionName>[AU] Horizons Universe</SessionName>
   <SpectatorPosition>
     <Position x="-0.32934382554148806" y="-0.074394008015407867" z="1.5750704078872861" />
     <Forward x="0.145073712" y="0.6612421" z="-0.7360112" />
@@ -19,7 +19,7 @@
   <CameraEntity>0</CameraEntity>
   <Password />
   <Description />
-  <LastSaveTime>2021-08-04T16:33:04.9750686+10:00</LastSaveTime>
+  <LastSaveTime>2021-08-10T07:20:58.8494344+10:00</LastSaveTime>
   <SpectatorDistance>2.6</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -92,7 +92,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>false</CargoShipsEnabled>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -107,7 +107,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.2</ProceduralDensity>
+    <ProceduralDensity>0.3</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -13963,6 +13963,11 @@
       <PublishedFileId>1728457223</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Blink Drive">
+      <Name>1663539021.sbm</Name>
+      <PublishedFileId>1663539021</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Edge Be Gone! (No armor edges)">
       <Name>2042716312.sbm</Name>
       <PublishedFileId>2042716312</PublishedFileId>
@@ -14081,6 +14086,11 @@
     <ModItem FriendlyName="Halo UNSC Ship Weapons (WeaponCore)">
       <Name>2286546132.sbm</Name>
       <PublishedFileId>2286546132</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[Mexpex] MWI - Weapon Collection 1 [WeaponCore](18)">
+      <Name>1920388300.sbm</Name>
+      <PublishedFileId>1920388300</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Modular Encounters Spawner">
@@ -14304,7 +14314,7 @@
       <DisplayName>MCR NPC6587</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2398337+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1715709+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-22T22:03:36.4385278</LastLogoutTime>
       <RespawnShips />
@@ -14511,7 +14521,7 @@
       <DisplayName>MCR NPC3438</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2418781+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1725708+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-24T20:24:02.928321</LastLogoutTime>
       <RespawnShips />
@@ -14668,7 +14678,7 @@
       <DisplayName>NPC 1940</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2418781+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1725708+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-26T21:38:58.4897478</LastLogoutTime>
       <RespawnShips />
@@ -19859,7 +19869,7 @@
       <DisplayName>dam NPC1278</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:00.4047766+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19872,7 +19882,7 @@
       <DisplayName>SBC NPC6481</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:21.1085151+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19885,7 +19895,7 @@
       <DisplayName>REV NPC8747</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:24.5564817+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19898,7 +19908,7 @@
       <DisplayName>IHI NPC2663</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:28.7489973+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19911,7 +19921,7 @@
       <DisplayName>IPF NPC5654</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:31.9466767+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19924,7 +19934,7 @@
       <DisplayName>GCP NPC1267</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:35.2909978+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19937,7 +19947,7 @@
       <DisplayName>EXP NPC7206</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1825722+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-21T11:29:39.3411832+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19950,7 +19960,7 @@
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2448786+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T11:46:15.8995006+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19963,7 +19973,7 @@
       <DisplayName>Exiled Engineer</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.3287139+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19976,7 +19986,7 @@
       <DisplayName>Thumbs</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.3397461+10:00</LastLogoutTime>
       <RespawnShips />
@@ -19989,7 +19999,7 @@
       <DisplayName>Sirius</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.3397461+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20002,7 +20012,7 @@
       <DisplayName>Contractors</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20015,7 +20025,7 @@
       <DisplayName>The Tribunal</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20028,7 +20038,7 @@
       <DisplayName>The Chairman</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20041,7 +20051,7 @@
       <DisplayName>ICOR</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20054,7 +20064,7 @@
       <DisplayName>IMDC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20067,7 +20077,7 @@
       <DisplayName>ISLF</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20080,7 +20090,7 @@
       <DisplayName>Junk</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20093,7 +20103,7 @@
       <DisplayName>SEMS</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20106,7 +20116,7 @@
       <DisplayName>VCOR</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20119,7 +20129,7 @@
       <DisplayName>WDMD</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-07-22T16:20:02.340745+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20147,7 +20157,7 @@
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:37.3251498+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:10.2995235+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -20160,7 +20170,7 @@
       <DisplayName>Exiled Engineer</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.7756621+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20173,7 +20183,7 @@
       <DisplayName>Sirius</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.801663+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20186,7 +20196,7 @@
       <DisplayName>Thumbs</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.801663+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20199,7 +20209,7 @@
       <DisplayName>Contractors</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.801663+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20212,7 +20222,7 @@
       <DisplayName>The Tribunal</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.802662+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20225,7 +20235,7 @@
       <DisplayName>The Chairman</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.802662+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20238,7 +20248,7 @@
       <DisplayName>Miranda Survivors</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:49.802662+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20251,7 +20261,7 @@
       <DisplayName>Clang Miners Guild CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7101108+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20264,7 +20274,7 @@
       <DisplayName>Interstellar Excavators CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7301118+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20277,7 +20287,7 @@
       <DisplayName>Intergalactic Drillers CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7301118+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20290,7 +20300,7 @@
       <DisplayName>Secret Drilling Consortium CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7301118+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20303,7 +20313,7 @@
       <DisplayName>First Class Shipping CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7301118+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20316,7 +20326,7 @@
       <DisplayName>Galactic Cartel CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7311125+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20329,7 +20339,7 @@
       <DisplayName>Sovereign Commerce CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.7311125+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20342,7 +20352,7 @@
       <DisplayName>Royal Heavy Industry CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.734106+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20355,7 +20365,7 @@
       <DisplayName>Royal Inventors CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.734106+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20368,7 +20378,7 @@
       <DisplayName>Interstellar Artisans CEO</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T15:08:50.734106+10:00</LastLogoutTime>
       <RespawnShips />
@@ -20404,7 +20414,7 @@
       <BlockLimitModifier>0</BlockLimitModifier>
       <LastLoginTime>2021-08-04T16:08:13.7321391+10:00</LastLoginTime>
       <SavedCharacters />
-      <LastLogoutTime>2021-08-04T16:33:04.9870667+10:00</LastLogoutTime>
+      <LastLogoutTime>2021-08-04T16:29:40.2977087+10:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>2485.0452701068612</X>
@@ -20419,7 +20429,7 @@
       <DisplayName>ADM NPC9865</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2458791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-03T16:14:28.0195753+10:00</LastLogoutTime>
       <RespawnShips />
@@ -21219,7 +21229,7 @@
       <DisplayName>NPC 4210</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2468798+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1835721+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-05T00:06:50.7471807+10:00</LastLogoutTime>
       <RespawnShips />
@@ -22307,7 +22317,7 @@
       <DisplayName>NPC 7584</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2478778+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1845716+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-12T20:53:08.7074452+10:00</LastLogoutTime>
       <RespawnShips />
@@ -22655,7 +22665,7 @@
       <DisplayName>DRG NPC6627</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2488784+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1855712+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-15T16:20:05.6620745</LastLogoutTime>
       <RespawnShips />
@@ -22694,7 +22704,7 @@
       <DisplayName>TNN NPC3856</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2488784+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1855712+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-15T16:54:27.4200439</LastLogoutTime>
       <RespawnShips />
@@ -23085,7 +23095,7 @@
       <DisplayName>NPC 5504</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2021-08-04T16:04:32.2498791+10:00</LastLoginTime>
+      <LastLoginTime>2021-08-10T07:14:06.1855712+10:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2021-05-17T20:10:50.8909964+10:00</LastLogoutTime>
       <RespawnShips />
@@ -23476,116 +23486,6 @@
   <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>5415449209949047466</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Koda</DisplayName>
-          <IdentityId>144115188075855915</IdentityId>
-          <Connected>true</Connected>
-          <ForceRealPlayer>true</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_RadioAntenna" Subtype="SpawnPadMulti" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_RadioAntenna" Subtype="SpawnPadSingle" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>9</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorTier5" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>10</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_ShipWelder" Subtype="SELtdLargeNanobotBuildAndRepairSystem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>11</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>18</RemoteAdminSettings>
-          <PromoteLevel>Admin</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
       <item>
         <Key>
           <ClientId>0</ClientId>
@@ -27014,13 +26914,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>36</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_RadioAntenna" Subtype="SpawnPadSingle" />
                 </Data>
               </Slot>
               <Slot>
@@ -63116,6 +63009,67 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>3358090649346770321</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Stanis</DisplayName>
+          <IdentityId>144115188075856408</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>15241675092605955926</HashedId>
         </Key>
         <Value>
@@ -63286,67 +63240,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorRoundSlope" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>3358090649346770321</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Stanis</DisplayName>
-          <IdentityId>144115188075856408</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -64327,6 +64220,53 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>7672395937177119646</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Claude DelRoute</DisplayName>
+          <IdentityId>144115188075855949</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>8</RemoteAdminSettings>
+          <PromoteLevel>Admin</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>18036891410990882840</HashedId>
         </Key>
         <Value>
@@ -64380,53 +64320,6 @@
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
           <RemoteAdminSettings>0</RemoteAdminSettings>
           <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>7672395937177119646</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Claude DelRoute</DisplayName>
-          <IdentityId>144115188075855949</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>8</RemoteAdminSettings>
-          <PromoteLevel>Admin</PromoteLevel>
           <BuildColorSlot>0</BuildColorSlot>
           <IsWildlifeAgent>false</IsWildlifeAgent>
         </Value>
@@ -68340,67 +68233,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>11038304404890912767</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>desmarelda2018</DisplayName>
-          <IdentityId>144115188075856083</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>1495879143970476829</HashedId>
         </Key>
         <Value>
@@ -68473,6 +68305,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>11038304404890912767</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>desmarelda2018</DisplayName>
+          <IdentityId>144115188075856083</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -68668,6 +68561,67 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>9147926840767993198</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Carpalcrepr</DisplayName>
+          <IdentityId>144115188075856043</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>57081728557414579</HashedId>
         </Key>
         <Value>
@@ -68757,11 +68711,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>9147926840767993198</HashedId>
+          <HashedId>13426527183940393890</HashedId>
         </Key>
         <Value>
-          <DisplayName>Carpalcrepr</DisplayName>
-          <IdentityId>144115188075856043</IdentityId>
+          <DisplayName>P4TR1CK</DisplayName>
+          <IdentityId>144115188075856089</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -68818,11 +68772,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>13426527183940393890</HashedId>
+          <HashedId>5415449209949047466</HashedId>
         </Key>
         <Value>
-          <DisplayName>P4TR1CK</DisplayName>
-          <IdentityId>144115188075856089</IdentityId>
+          <DisplayName>Koda</DisplayName>
+          <IdentityId>144115188075855915</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -68830,47 +68784,140 @@
             <SelectedSlot xsi:nil="true" />
             <Slots>
               <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
                 <Index>2</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                  <DefinitionId Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>3</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                  <DefinitionId Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>4</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>11</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
                 </Data>
               </Slot>
             </Slots>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.799999952</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
+          <RemoteAdminSettings>18</RemoteAdminSettings>
+          <PromoteLevel>Admin</PromoteLevel>
           <BuildColorSlot>0</BuildColorSlot>
           <IsWildlifeAgent>false</IsWildlifeAgent>
         </Value>
@@ -70899,67 +70946,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>1764644550038409908</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>XYZBoy</DisplayName>
-          <IdentityId>144115188075856378</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>486998472562175779</HashedId>
         </Key>
         <Value>
@@ -71032,6 +71018,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>1764644550038409908</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>XYZBoy</DisplayName>
+          <IdentityId>144115188075856378</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -71638,6 +71685,95 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>6788236568870394211</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Complitron</DisplayName>
+          <IdentityId>144115188075856475</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>557426275094285966</HashedId>
         </Key>
         <Value>
@@ -71843,95 +71979,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>6788236568870394211</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Complitron</DisplayName>
-          <IdentityId>144115188075856475</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
                 </Data>
               </Slot>
             </Slots>
@@ -72980,6 +73027,67 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>13182657743139729954</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Ice</DisplayName>
+          <IdentityId>144115188075856243</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>4799919586753245487</HashedId>
         </Key>
         <Value>
@@ -73052,67 +73160,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>13182657743139729954</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Ice</DisplayName>
-          <IdentityId>144115188075856243</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -74023,6 +74070,67 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>5213575865140791390</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Aspection</DisplayName>
+          <IdentityId>144115188075856442</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>8310145653225827564</HashedId>
         </Key>
         <Value>
@@ -74172,67 +74280,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
                   <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="BasicHandHeldLauncherItem" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>5213575865140791390</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Aspection</DisplayName>
-          <IdentityId>144115188075856442</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -76180,67 +76227,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>16643375294939532580</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Sir Knight</DisplayName>
-          <IdentityId>144115188075856101</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>18140716149706554097</HashedId>
         </Key>
         <Value>
@@ -76313,6 +76299,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>16643375294939532580</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Sir Knight</DisplayName>
+          <IdentityId>144115188075856101</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -76855,184 +76902,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>5209408935389226477</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Rinaith</DisplayName>
-          <IdentityId>144115188075856477</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>4814328187508527541</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>sammy90_</DisplayName>
-          <IdentityId>144115188075856488</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>13306657466804141662</HashedId>
         </Key>
         <Value>
@@ -77465,6 +77334,184 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>4814328187508527541</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>sammy90_</DisplayName>
+          <IdentityId>144115188075856488</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>5209408935389226477</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Rinaith</DisplayName>
+          <IdentityId>144115188075856477</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>5455109332276923371</HashedId>
         </Key>
         <Value>
@@ -77862,11 +77909,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>15876789288492730716</HashedId>
+          <HashedId>5097981516227531652</HashedId>
         </Key>
         <Value>
-          <DisplayName>Reaper</DisplayName>
-          <IdentityId>144115188075856334</IdentityId>
+          <DisplayName>Captain Rogue</DisplayName>
+          <IdentityId>144115188075856095</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -77876,64 +77923,36 @@
               <Slot>
                 <Index>0</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>3</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>4</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -78173,11 +78192,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>5097981516227531652</HashedId>
+          <HashedId>15876789288492730716</HashedId>
         </Key>
         <Value>
-          <DisplayName>Captain Rogue</DisplayName>
-          <IdentityId>144115188075856095</IdentityId>
+          <DisplayName>Reaper</DisplayName>
+          <IdentityId>144115188075856334</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -78187,36 +78206,64 @@
               <Slot>
                 <Index>0</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>3</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>4</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
                 </Data>
               </Slot>
             </Slots>
@@ -78679,6 +78726,67 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>14379425050543806282</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Devious</DisplayName>
+          <IdentityId>144115188075856355</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>7235644083920349562</HashedId>
         </Key>
         <Value>
@@ -78751,67 +78859,6 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>14379425050543806282</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Devious</DisplayName>
-          <IdentityId>144115188075856355</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -79073,74 +79120,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>286545534727489612</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Jim's counter insurgency</DisplayName>
-          <IdentityId>144115188075856375</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>303514265727973174</HashedId>
         </Key>
         <Value>
@@ -79213,6 +79192,74 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>286545534727489612</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Jim's counter insurgency</DisplayName>
+          <IdentityId>144115188075856375</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
                 </Data>
               </Slot>
             </Slots>
@@ -80318,67 +80365,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>4048473148367584786</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Monochromatic Funk Monkey</DisplayName>
-          <IdentityId>144115188075856155</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>15853236723952627164</HashedId>
         </Key>
         <Value>
@@ -80472,6 +80458,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
                   <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill4Item" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>4048473148367584786</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>Monochromatic Funk Monkey</DisplayName>
+          <IdentityId>144115188075856155</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -82128,67 +82175,6 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>17314928143905105095</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>EndureFort</DisplayName>
-          <IdentityId>144115188075856445</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>14538608399288780569</HashedId>
         </Key>
         <Value>
@@ -82240,6 +82226,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>17314928143905105095</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>EndureFort</DisplayName>
+          <IdentityId>144115188075856445</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -83407,11 +83454,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>2926875713489061977</HashedId>
+          <HashedId>18263397295631151392</HashedId>
         </Key>
         <Value>
-          <DisplayName>GhostSniper7555</DisplayName>
-          <IdentityId>144115188075856018</IdentityId>
+          <DisplayName>NastyNick</DisplayName>
+          <IdentityId>144115188075855945</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -83428,8 +83475,8 @@
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="UltimateAutomaticRifleItem" />
                 </Data>
               </Slot>
               <Slot>
@@ -83468,11 +83515,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>18263397295631151392</HashedId>
+          <HashedId>2926875713489061977</HashedId>
         </Key>
         <Value>
-          <DisplayName>NastyNick</DisplayName>
-          <IdentityId>144115188075855945</IdentityId>
+          <DisplayName>GhostSniper7555</DisplayName>
+          <IdentityId>144115188075856018</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -83489,8 +83536,8 @@
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="UltimateAutomaticRifleItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
                 </Data>
               </Slot>
               <Slot>
@@ -83821,6 +83868,95 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
+          <HashedId>17989944290642251172</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>HIV</DisplayName>
+          <IdentityId>144115188075856256</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
           <HashedId>13181155294840462323</HashedId>
         </Key>
         <Value>
@@ -83910,11 +84046,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>17989944290642251172</HashedId>
+          <HashedId>16041895535640170553</HashedId>
         </Key>
         <Value>
-          <DisplayName>HIV</DisplayName>
-          <IdentityId>144115188075856256</IdentityId>
+          <DisplayName>Lippy</DisplayName>
+          <IdentityId>144115188075856371</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -83924,64 +84060,36 @@
               <Slot>
                 <Index>0</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>3</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>4</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -84102,133 +84210,11 @@
         <Key>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
-          <HashedId>16041895535640170553</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>Lippy</DisplayName>
-          <IdentityId>144115188075856371</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
           <HashedId>5315743192555169278</HashedId>
         </Key>
         <Value>
           <DisplayName>Mc-Muffin27</DisplayName>
           <IdentityId>144115188075856127</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-            </Slots>
-            <SlotsGamepad />
-          </Toolbar>
-          <EntityCameraData />
-          <CreativeToolsEnabled>false</CreativeToolsEnabled>
-          <RemoteAdminSettings>0</RemoteAdminSettings>
-          <PromoteLevel>None</PromoteLevel>
-          <BuildColorSlot>0</BuildColorSlot>
-          <IsWildlifeAgent>false</IsWildlifeAgent>
-        </Value>
-      </item>
-      <item>
-        <Key>
-          <ClientId>0</ClientId>
-          <SerialId>0</SerialId>
-          <HashedId>11164077623988568561</HashedId>
-        </Key>
-        <Value>
-          <DisplayName>BIGTsBACON</DisplayName>
-          <IdentityId>144115188075855975</IdentityId>
           <Connected>false</Connected>
           <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
@@ -84350,6 +84336,67 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+                </Data>
+              </Slot>
+            </Slots>
+            <SlotsGamepad />
+          </Toolbar>
+          <EntityCameraData />
+          <CreativeToolsEnabled>false</CreativeToolsEnabled>
+          <RemoteAdminSettings>0</RemoteAdminSettings>
+          <PromoteLevel>None</PromoteLevel>
+          <BuildColorSlot>0</BuildColorSlot>
+          <IsWildlifeAgent>false</IsWildlifeAgent>
+        </Value>
+      </item>
+      <item>
+        <Key>
+          <ClientId>0</ClientId>
+          <SerialId>0</SerialId>
+          <HashedId>11164077623988568561</HashedId>
+        </Key>
+        <Value>
+          <DisplayName>BIGTsBACON</DisplayName>
+          <IdentityId>144115188075855975</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
             </Slots>
@@ -84642,7 +84689,7 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="-0.930076241" y="-0.348169476" z="-0.117202036" />
+      <SunDirectionNormalized x="-0.7009877" y="0.249485061" z="-0.6681119" />
       <WeatherPlanetData />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
@@ -84651,10 +84698,10 @@
       <PlayerData>
         <PlayerContainerData>
           <PlayerId>144115188075855915</PlayerId>
-          <Timer>455</Timer>
+          <Timer>54</Timer>
           <Active>true</Active>
           <Competetive>false</Competetive>
-          <ContainerId>108822799289102747</ContainerId>
+          <ContainerId>0</ContainerId>
         </PlayerContainerData>
       </PlayerData>
       <GPSForRemoval />
@@ -84704,6 +84751,7 @@
       <StateMachines xsi:nil="true" />
       <Questlog>
         <LineData />
+        <Title />
         <Visible>false</Visible>
         <IsUsedByVisualScripting>false</IsUsedByVisualScripting>
       </Questlog>
@@ -84714,7 +84762,7 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>81116</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>41650</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">

@@ -2,7 +2,7 @@
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
   <ElapsedGameTime>1342560000</ElapsedGameTime>
-  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
+  <SessionName>[AU] Horizons Universe</SessionName>
   <SpectatorPosition>
     <Position x="-0.32934382554148806" y="-0.074394008015407867" z="1.5750704078872861" />
     <Forward x="0.145073712" y="0.6612421" z="-0.7360112" />
@@ -146,7 +146,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.2</ProceduralDensity>
+    <ProceduralDensity>0.3</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -329,7 +329,7 @@
       <PublishedFileId>514062285</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Defense Shields - v2.0(23)">
+    <ModItem FriendlyName="Defense Shields - v2.0(24)">
       <Name>1365616918.sbm</Name>
       <PublishedFileId>1365616918</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -373,7 +373,6 @@
       <Name>2562768059.sbm</Name>
       <PublishedFileId>2562768059</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
     <ModItem FriendlyName="Nanobot Drill and Fill System">
       <Name>1879455650.sbm</Name>
@@ -384,14 +383,13 @@
       <Name>2562491248.sbm</Name>
       <PublishedFileId>2562491248</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
     <ModItem FriendlyName="Nanobot Build and Repair System">
       <Name>857053359.sbm</Name>
       <PublishedFileId>857053359</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="[v6.5.3] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
+    <ModItem FriendlyName="[v6.5.7] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
       <Name>691529112.sbm</Name>
       <PublishedFileId>691529112</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -399,6 +397,11 @@
     <ModItem FriendlyName="SmartRotors: Solar">
       <Name>1728457223.sbm</Name>
       <PublishedFileId>1728457223</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Blink Drive">
+      <Name>1663539021.sbm</Name>
+      <PublishedFileId>1663539021</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Edge Be Gone! (No armor edges)">
@@ -501,21 +504,6 @@
       <PublishedFileId>410678202</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Kimi &amp; Qun">
-      <Name>2459246911.sbm</Name>
-      <PublishedFileId>2459246911</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Luma">
-      <Name>2286318683.sbm</Name>
-      <PublishedFileId>2286318683</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Arkorus">
-      <Name>2108259024.sbm</Name>
-      <PublishedFileId>2108259024</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Rich HUD Master">
       <Name>1965654081.sbm</Name>
       <PublishedFileId>1965654081</PublishedFileId>
@@ -526,36 +514,6 @@
       <PublishedFileId>1881158066</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Demus">
-      <Name>1813330640.sbm</Name>
-      <PublishedFileId>1813330640</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Planet Crait less trees for MP">
-      <Name>2438497621.sbm</Name>
-      <PublishedFileId>2438497621</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Planet Segovia">
-      <Name>1562038029.sbm</Name>
-      <PublishedFileId>1562038029</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Satreus">
-      <Name>2266665708.sbm</Name>
-      <PublishedFileId>2266665708</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tohil">
-      <Name>2296726670.sbm</Name>
-      <PublishedFileId>2296726670</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Nekros">
-      <Name>2170073933.sbm</Name>
-      <PublishedFileId>2170073933</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="[SERVER] Gravel Sifter">
       <Name>2474017247.sbm</Name>
       <PublishedFileId>2474017247</PublishedFileId>
@@ -564,6 +522,11 @@
     <ModItem FriendlyName="Halo UNSC Ship Weapons (WeaponCore)">
       <Name>2286546132.sbm</Name>
       <PublishedFileId>2286546132</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="[Mexpex] MWI - Weapon Collection 1 [WeaponCore](18)">
+      <Name>1920388300.sbm</Name>
+      <PublishedFileId>1920388300</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Modular Encounters Spawner">
@@ -601,15 +564,34 @@
       <PublishedFileId>1992435623</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Build and Repair Patch">
-      <Name>2562491248.sbm</Name>
-      <PublishedFileId>2562491248</PublishedFileId>
+    <ModItem FriendlyName="Tiered Stone Dusters">
+      <Name>1315723293.sbm</Name>
+      <PublishedFileId>1315723293</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
-    <ModItem FriendlyName="Drill and Fill Patch">
-      <Name>2562768059.sbm</Name>
-      <PublishedFileId>2562768059</PublishedFileId>
+    <ModItem FriendlyName="Grated Catwalks Expansion">
+      <Name>2503712170.sbm</Name>
+      <PublishedFileId>2503712170</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More NPC Encounters V7 Faction Wars">
+      <Name>2315059547.sbm</Name>
+      <PublishedFileId>2315059547</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="NPC Weapon Upgrades">
+      <Name>1555044803.sbm</Name>
+      <PublishedFileId>1555044803</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Armor Expansion">
+      <Name>1939935505.sbm</Name>
+      <PublishedFileId>1939935505</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More Encounters - Content">
+      <Name>2411541991.sbm</Name>
+      <PublishedFileId>2411541991</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
       <IsDependency>true</IsDependency>
     </ModItem>

@@ -24,7 +24,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>false</CargoShipsEnabled>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -39,7 +39,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.2</ProceduralDensity>
+    <ProceduralDensity>0.3</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -220,6 +220,11 @@
       <PublishedFileId>1728457223</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Blink Drive">
+      <Name>1663539021.sbm</Name>
+      <PublishedFileId>1663539021</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Edge Be Gone! (No armor edges)">
       <Name>2042716312.sbm</Name>
       <PublishedFileId>2042716312</PublishedFileId>
@@ -340,6 +345,11 @@
       <PublishedFileId>2286546132</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="[Mexpex] MWI - Weapon Collection 1 [WeaponCore](18)">
+      <Name>1920388300.sbm</Name>
+      <PublishedFileId>1920388300</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Modular Encounters Spawner">
       <Name>1521905890.sbm</Name>
       <PublishedFileId>1521905890</PublishedFileId>
@@ -407,6 +417,6 @@
       <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
-  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
-  <LastSaveTime>2021-08-04T16:33:04.9750686+10:00</LastSaveTime>
+  <SessionName>[AU] Horizons Universe</SessionName>
+  <LastSaveTime>2021-08-10T07:20:58.8494344+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

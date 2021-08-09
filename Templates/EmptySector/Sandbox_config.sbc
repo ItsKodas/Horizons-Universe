@@ -39,7 +39,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.2</ProceduralDensity>
+    <ProceduralDensity>0.3</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -151,7 +151,7 @@
       <PublishedFileId>514062285</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Defense Shields - v2.0(23)">
+    <ModItem FriendlyName="Defense Shields - v2.0(24)">
       <Name>1365616918.sbm</Name>
       <PublishedFileId>1365616918</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -195,7 +195,6 @@
       <Name>2562768059.sbm</Name>
       <PublishedFileId>2562768059</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
     <ModItem FriendlyName="Nanobot Drill and Fill System">
       <Name>1879455650.sbm</Name>
@@ -206,14 +205,13 @@
       <Name>2562491248.sbm</Name>
       <PublishedFileId>2562491248</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
     <ModItem FriendlyName="Nanobot Build and Repair System">
       <Name>857053359.sbm</Name>
       <PublishedFileId>857053359</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="[v6.5.3] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
+    <ModItem FriendlyName="[v6.5.7] Lord Wiader's Tiered Systems - LWTS (KptKosmit91's Tiered Systems/Tiered Everything)">
       <Name>691529112.sbm</Name>
       <PublishedFileId>691529112</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -221,6 +219,11 @@
     <ModItem FriendlyName="SmartRotors: Solar">
       <Name>1728457223.sbm</Name>
       <PublishedFileId>1728457223</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Blink Drive">
+      <Name>1663539021.sbm</Name>
+      <PublishedFileId>1663539021</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Edge Be Gone! (No armor edges)">
@@ -343,6 +346,11 @@
       <PublishedFileId>2286546132</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="[Mexpex] MWI - Weapon Collection 1 [WeaponCore](18)">
+      <Name>1920388300.sbm</Name>
+      <PublishedFileId>1920388300</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Modular Encounters Spawner">
       <Name>1521905890.sbm</Name>
       <PublishedFileId>1521905890</PublishedFileId>
@@ -402,6 +410,12 @@
       <Name>1939935505.sbm</Name>
       <PublishedFileId>1939935505</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="More Encounters - Content">
+      <Name>2411541991.sbm</Name>
+      <PublishedFileId>2411541991</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
