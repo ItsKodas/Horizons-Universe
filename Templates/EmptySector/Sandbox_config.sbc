@@ -39,7 +39,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.3</ProceduralDensity>
+    <ProceduralDensity>0.35</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
@@ -418,6 +418,6 @@
       <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
-  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
+  <SessionName>[AU] Horizons Universe</SessionName>
   <LastSaveTime>2016-12-20T00:10:26.7717148+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>

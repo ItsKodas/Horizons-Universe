@@ -24,7 +24,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -416,7 +416,47 @@
       <PublishedServiceName>Steam</PublishedServiceName>
       <IsDependency>true</IsDependency>
     </ModItem>
+    <ModItem FriendlyName="Planet Galados V">
+      <Name>2213459320.sbm</Name>
+      <PublishedFileId>2213459320</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Phlare Paradisia 23">
+      <Name>1581114935.sbm</Name>
+      <PublishedFileId>1581114935</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Octave">
+      <Name>2151052687.sbm</Name>
+      <PublishedFileId>2151052687</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Spilskinanke - Canyon Planet">
+      <Name>2470870233.sbm</Name>
+      <PublishedFileId>2470870233</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Object-85 (Weather Update)">
+      <Name>1662457289.sbm</Name>
+      <PublishedFileId>1662457289</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Moon Kaliper">
+      <Name>718904632.sbm</Name>
+      <PublishedFileId>718904632</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Kimi &amp; Qun">
+      <Name>2459246911.sbm</Name>
+      <PublishedFileId>2459246911</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Planet Segovia">
+      <Name>1562038029.sbm</Name>
+      <PublishedFileId>1562038029</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
   </Mods>
-  <SessionName>[AU] Horizons Universe</SessionName>
-  <LastSaveTime>2021-08-10T07:20:58.8494344+10:00</LastSaveTime>
+  <SessionName>[AU - Fresh Wipe] Horizons Universe</SessionName>
+  <LastSaveTime>2021-08-10T09:15:37.6598588+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
