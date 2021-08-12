@@ -9,6 +9,10 @@ del torch-server.zip
 
 echo ---------Editing Files----------
 node setdir.js
+set local=%CD%
+cd..
+node sync.js
+cd %local%
 
 echo ---------Booting Server---------
 Torch.Server.exe -autostart -nogui
