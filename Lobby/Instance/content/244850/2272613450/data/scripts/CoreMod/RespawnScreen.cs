@@ -133,9 +133,12 @@ namespace NexusSyncMod
                     }
 
                 }
-                catch (Exception ex)
+                catch (Exception _)
                 {
-                    Debug.Write(ex.ToString());
+                    //If we get an error, it could be caused by:
+                    // 1. Corrupt/invalid grid
+                    // 2. Duplicate ID which could be caused by grid already being loaded, or least likely, grid with that ID already exsits client side
+                    //Debug.Write(ex.ToString());
                 }
             });
 

@@ -1,4 +1,5 @@
-﻿using Sandbox.Common.ObjectBuilders;
+﻿using NexusSyncMod.CoreMod;
+using Sandbox.Common.ObjectBuilders;
 using Sandbox.Common.ObjectBuilders.Definitions;
 using Sandbox.Game.Entities;
 using Sandbox.Game.Entities.Cube;
@@ -42,29 +43,35 @@ namespace NexusSyncMod
 
             MyEntities.OnEntityCreate += MyEntities_OnEntityCreate;
             MyEntities.OnEntityRemove += MyEntities_OnEntityRemove;
-            //TryShow("Attached Entity Events");
 
            
+            //TryShow("Attached Entity Events");
+
+
         }
 
-    
 
 
-        public override void UpdatingStopped()
+        protected override void UnloadData()
         {
-            if(PlayerScreen != null)
+            if (PlayerScreen != null)
             {
                 PlayerScreen.UnloadData();
             }
 
-            if (IsServer)
+            if (!IsServer)
             {
+                GateVisuals.UnloadData();
 
-                
             }
+        }
+        
 
 
-            base.UpdatingStopped();
+        public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
+        {
+            GateVisuals.Init();
+            base.Init(sessionComponent);
         }
 
 
@@ -72,6 +79,7 @@ namespace NexusSyncMod
         {
             if (!IsServer)
             {
+               
                 PlayerScreen = new RespawnScreen();
                 return;
             }
@@ -80,7 +88,12 @@ namespace NexusSyncMod
             Init();
         }
 
- 
+        public override void Draw()
+        {
+            GateVisuals.Draw();
+        }
+
+
 
         private void MyEntities_OnEntityRemove(VRage.Game.Entity.MyEntity obj)
         {

@@ -138,7 +138,12 @@
       <PublishedFileId>2272613450</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="NexusSyncModTest">
+      <Name>2475145256.sbm</Name>
+      <PublishedFileId>2475145256</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
   </Mods>
   <SessionName>[AU] Horizons Universe</SessionName>
-  <LastSaveTime>2021-08-03T19:18:58.7602167+10:00</LastSaveTime>
+  <LastSaveTime>2021-08-12T14:12:23.3293037+10:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
