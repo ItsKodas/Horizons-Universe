@@ -1048,6 +1048,19 @@
             InitializeComponent
             </summary>
         </member>
+        <member name="T:Torch.Server.Views.PluginDownloader">
+            <summary>
+            Interaction logic for PluginDownloadProgressBar.xaml
+            </summary>
+            <summary>
+            PluginDownloader
+            </summary>
+        </member>
+        <member name="M:Torch.Server.Views.PluginDownloader.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
         <member name="T:Torch.Server.Views.RoleEditor">
             <summary>
             Interaction logic for RoleEditor.xaml
