@@ -60,6 +60,11 @@ for (server in servers) {
     local.sandbox['file'] = local.sandbox['file'].replace(`<Mods>${local.sandbox['mods']}</Mods>`, `<Mods>${source.sandbox_config['mods']}</Mods>`);
 
 
+
+    //? Torch Config
+    fs.writeFileSync(`${server.local}/torch.cfg`, local.torch['file'], 'utf8');
+    console.log(`${name} torch.cfg has been synced.`);
+
     //? Dedicated Config
     fs.writeFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, local.dedicated['file'], 'utf8');
     console.log(`${name} port has been changed to ${server.port} and the dedicated config has been synced.`);
