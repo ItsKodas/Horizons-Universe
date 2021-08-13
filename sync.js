@@ -63,19 +63,22 @@ for (server in servers) {
 
 
 
+    //! Logging
+    console.log(`${name}:`);
+
     //? Torch Config
     fs.writeFileSync(`${server.local}/torch.cfg`, local.torch['file'], 'utf8');
-    console.log(`${name} torch.cfg has been synced.`);
+    console.log(`\t- torch.cfg has been synced.`);
 
     //? Dedicated Config
     fs.writeFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, local.dedicated['file'], 'utf8');
-    console.log(`${name} port has been changed to ${server.port} and the dedicated config has been synced.`);
+    console.log(`\t- port has been changed to ${server.port} and the dedicated config has been synced.`);
 
     //? Sandbox_config.sbc
     fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, local.sandbox_config['file'], 'utf8');
-    console.log(`${name} Sandbox_config.sbc has been synced`);
+    console.log(`\t- Sandbox_config.sbc has been synced`);
     
     //? Sandbox.sbc
     fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, local.sandbox['file'], 'utf8');
-    console.log(`${name} Sandbox.sbc has been synced\n`);
+    console.log(`\t- Sandbox.sbc has been synced\n`);
 }
