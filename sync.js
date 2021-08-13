@@ -6,12 +6,14 @@ for (server in servers) {
     var server = servers[server];
 
     var source = {
+        "torch": {},
         "dedicated": {},
         "sandbox_config": {},
         "sandbox": {}
     };
 
     var local = {
+        "torch": {},
         "dedicated": {},
         "sandbox_config": {},
         "sandbox": {}
@@ -75,5 +77,5 @@ for (server in servers) {
     
     //? Sandbox.sbc
     fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, local.sandbox['file'], 'utf8');
-    console.log(`${name} Sandbox.sbc has been synced`);
+    console.log(`${name} Sandbox.sbc has been synced\n`);
 }
