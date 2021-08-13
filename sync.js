@@ -29,10 +29,12 @@ for (server in servers) {
 
 
     //! Local Files
+    local.torch['file'] = fs.readFileSync(`${server.local}/torch.cfg`, 'utf8');
     local.dedicated['file'] = fs.readFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8');
     local.sandbox_config['file'] = fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8');
     local.sandbox['file'] = fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, 'utf8');
 
+    local.torch['title'] = local.torch['file'].split('<InstanceName>')[1].split('</InstanceName>')[0]
     local['port'] = local.dedicated['file'].split('<ServerPort>')[1].split('</ServerPort>')[0];
     local.dedicated['settings'] = local.dedicated['file'].split('<SessionSettings>')[1].split('</SessionSettings>')[0];
     local.sandbox_config['settings'] = local.sandbox_config['file'].split('<Settings xsi:type="MyObjectBuilder_SessionSettings">')[1].split('</Settings>')[0];
@@ -41,6 +43,9 @@ for (server in servers) {
     local.sandbox['mods'] = local.sandbox['file'].split('<Mods>')[1].split('</Mods>')[0];
 
 
+
+    //! Instance Title
+    local.torch['file'] = local.torch['file'].replace(`<InstanceName>${local.torch['title']}</InstanceName>`, `<InstanceName>${name}</InstanceName>`);
 
     //! Server Port
     local.dedicated['file'] = local.dedicated['file'].replace(`<ServerPort>${local['port']}</ServerPort>`, `<ServerPort>${server.port}</ServerPort>`);
