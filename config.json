@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "controllerIP": "127.0.0.1"
+    },
+
+    "servers": {
+        "Lobby": {
+            "local": "Lobby",
+            "source": "Lobby",
+            "port": 27020,
+            "id": 1,
+            "transfer": {
+                "files": false,
+                "configs": false,
+                "mods": false
+            }
+        },
+        "Deepspace": {
+            "local": "GeneralSector",
+            "source": "GeneralSector",
+            "port": 27021,
+            "id": 2,
+            "transfer": {
+                "files": true,
+                "configs": true,
+                "mods": true
+            }
+        },
+        "Demo 1": {
+            "local": "Demo1",
+            "source": "Sector",
+            "port": 27023,
+            "id": 4,
+            "transfer": {
+                "files": true,
+                "configs": true,
+                "mods": true
+            }
+        }
+    },
+
+    "admins": [
+        "76561198138366099"
+    ],
+
+    "bans": [
+
+    ]
+}

@@ -1,84 +1,115 @@
-const fs = require('fs');
-var servers = require('./servers.json');
+const fs = require('fs')
+var config = require('./config.json')
 
-for (server in servers) {
-    var name = server;
-    var server = servers[server];
+
+
+var admins = `\n`
+for (steamId of config.admins) { admins += `\t\t<unsignedLong>${steamId}</unsignedLong>\n` }
+
+
+for (server in config.servers) {
+    var name = server
+    var server = config.servers[server]
+
+    console.log(`${name}:`)
+
 
     var source = {
         "torch": {},
-        "dedicated": {},
-        "sandbox_config": {},
-        "sandbox": {}
+        "dedicated": {
+            "file": fs.readFileSync(`${server.source}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8'),
+            "settings": xml(fs.readFileSync(`${server.source}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8'), 'SessionSettings')
+        },
+        "sandbox_config": {
+            "file": fs.readFileSync(`${server.source}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8')
+        },
+        "sandbox": {
+            "file": fs.readFileSync(`${server.source}/Instance/Saves/World/Sandbox.sbc`, 'utf8')
+        },
+        "mods": xml(fs.readFileSync(`${server.source}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8'), 'Mods')
     };
 
     var local = {
-        "torch": {},
-        "dedicated": {},
-        "sandbox_config": {},
-        "sandbox": {}
+        "torch": {
+            "file": fs.readFileSync(`${server.local}/torch.cfg`, 'utf8')
+        },
+        "dedicated": {
+            "file": fs.readFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8')
+        },
+        "sandbox_config": {
+            "file": fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8')
+        },
+        "sandbox": {
+            "file": fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, 'utf8')
+        }
     };
-
-
-    //! Source Files
-    source.dedicated['file'] = fs.readFileSync(`${server.source}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8');
-    source.sandbox_config['file'] = fs.readFileSync(`${server.source}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8');
-    source.sandbox['file'] = fs.readFileSync(`${server.source}/Instance/Saves/World/Sandbox.sbc`, 'utf8');
-    
-    source.dedicated['settings'] = source.dedicated['file'].split('<SessionSettings>')[1].split('</SessionSettings>')[0];
-    source.sandbox_config['mods'] = source.sandbox_config['file'].split('<Mods>')[1].split('</Mods>')[0];
-
-
-
-    //! Local Files
-    local.torch['file'] = fs.readFileSync(`${server.local}/torch.cfg`, 'utf8');
-    local.dedicated['file'] = fs.readFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, 'utf8');
-    local.sandbox_config['file'] = fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, 'utf8');
-    local.sandbox['file'] = fs.readFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, 'utf8');
-
-    local.torch['title'] = local.torch['file'].split('<InstanceName>')[1].split('</InstanceName>')[0]
-    local['port'] = local.dedicated['file'].split('<ServerPort>')[1].split('</ServerPort>')[0];
-    local.dedicated['settings'] = local.dedicated['file'].split('<SessionSettings>')[1].split('</SessionSettings>')[0];
-    local.sandbox_config['settings'] = local.sandbox_config['file'].split('<Settings xsi:type="MyObjectBuilder_SessionSettings">')[1].split('</Settings>')[0];
-    local.sandbox['settings'] = local.sandbox['file'].split('<Settings xsi:type="MyObjectBuilder_SessionSettings">')[1].split('</Settings>')[0];
-    local.sandbox_config['mods'] = local.sandbox_config['file'].split('<Mods>')[1].split('</Mods>')[0];
-    local.sandbox['mods'] = local.sandbox['file'].split('<Mods>')[1].split('</Mods>')[0];
 
 
 
     //! Instance Title
-    local.torch['file'] = local.torch['file'].replace(`<InstanceName>${local.torch['title']}</InstanceName>`, `<InstanceName>${name}</InstanceName>`);
+    local.torch.file = xml(local.torch.file, 'InstanceName', name), console.log(`\t- Instance Title Set.`)
 
     //! Server Port
-    local.dedicated['file'] = local.dedicated['file'].replace(`<ServerPort>${local['port']}</ServerPort>`, `<ServerPort>${server.port}</ServerPort>`);
-    
+    local.dedicated.file = xml(local.dedicated.file, 'ServerPort', server.port), console.log(`\t- Server Port Set.`)
+
     //! Server Configurations
-    local.dedicated['file'] = local.dedicated['file'].replace(`<SessionSettings>${local.dedicated['settings']}</SessionSettings>`, `<SessionSettings>${source.dedicated['settings']}</SessionSettings>`);
-    local.sandbox_config['file'] = local.sandbox_config['file'].replace(`<Settings xsi:type="MyObjectBuilder_SessionSettings">${local.sandbox_config['settings']}</Settings>`, `<Settings xsi:type="MyObjectBuilder_SessionSettings">${source.dedicated['settings']}</Settings>`);
-    local.sandbox['file'] = local.sandbox['file'].replace(`<Settings xsi:type="MyObjectBuilder_SessionSettings">${local.sandbox['settings']}</Settings>`, `<Settings xsi:type="MyObjectBuilder_SessionSettings">${source.dedicated['settings']}</Settings>`);
+    if (server.transfer.configs) {
+        local.dedicated.file = xml(local.dedicated.file, 'SessionSettings', source.dedicated.settings), console.log(`\t- SessionSettings Set.`)
+        local.sandbox_config.file = xml(local.sandbox_config.file, 'Settings', source.dedicated.settings), console.log(`\t- Primary World Settings Set.`)
+        local.sandbox.file = xml(local.sandbox.file, 'Settings', source.dedicated.settings), console.log(`\t- Secondary World Settings Set.`)
+    }
 
     //! Mods
-    local.sandbox_config['file'] = local.sandbox_config['file'].replace(`<Mods>${local.sandbox_config['mods']}</Mods>`, `<Mods>${source.sandbox_config['mods']}</Mods>`);
-    local.sandbox['file'] = local.sandbox['file'].replace(`<Mods>${local.sandbox['mods']}</Mods>`, `<Mods>${source.sandbox_config['mods']}</Mods>`);
+    if (server.transfer.mods) {
+        local.sandbox_config.file = xml(local.sandbox_config.file, 'Mods', source.mods), console.log(`\t- Primary Mod Settings Set.`)
+        local.sandbox.file = xml(local.sandbox.file, 'Mods', source.mods), console.log(`\t- Secondary Mod Settings Set.`)
+    }
+
+    //! Administrators
+    local.dedicated.file = xml(local.dedicated.file, 'Administrators', admins), console.log(`\t- Administrators Set.`)
 
 
-
-    //! Logging
-    console.log(`${name}:`);
-
+    //! Saving Files
     //? Torch Config
-    fs.writeFileSync(`${server.local}/torch.cfg`, local.torch['file'], 'utf8');
-    console.log(`\t- torch.cfg has been synced.`);
+    fs.writeFileSync(`${server.local}/torch.cfg`, local.torch.file, 'utf8')
+    console.log(`\t- torch.cfg has been saved.`)
 
     //? Dedicated Config
-    fs.writeFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, local.dedicated['file'], 'utf8');
-    console.log(`\t- port has been changed to ${server.port} and the dedicated config has been synced.`);
+    fs.writeFileSync(`${server.local}/Instance/SpaceEngineers-Dedicated.cfg`, local.dedicated.file, 'utf8')
+    console.log(`\t- Dedicated configs have been saved.`)
 
     //? Sandbox_config.sbc
-    fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, local.sandbox_config['file'], 'utf8');
-    console.log(`\t- Sandbox_config.sbc has been synced`);
-    
+    fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox_config.sbc`, local.sandbox_config.file, 'utf8')
+    console.log(`\t- Sandbox_config.sbc has been saved.`)
+
     //? Sandbox.sbc
-    fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, local.sandbox['file'], 'utf8');
-    console.log(`\t- Sandbox.sbc has been synced\n`);
+    fs.writeFileSync(`${server.local}/Instance/Saves/World/Sandbox.sbc`, local.sandbox.file, 'utf8')
+    console.log(`\t- Sandbox.sbc has been saved.`)
+
+
+    //! Config Transfer
+    if (server.transfer.files) {
+        fs.readdirSync(`${server.local}/Instance`).forEach(file => {
+            if (file.includes('.cfg') && !file.includes('SpaceEngineers-Dedicated')) fs.unlinkSync(`${server.local}/Instance/${file}`)
+        })
+        fs.readdirSync(`${server.source}/Instance`).forEach(file => {
+            if (file.includes('.cfg') && !file.includes('SpaceEngineers-Dedicated')) fs.copyFileSync(`${server.source}/Instance/${file}`, `${server.local}/Instance/${file}`)
+        })
+    }
+
+    //! Nexus Settings
+    var nexusCfg = fs.readFileSync(`${server.local}/Instance/NexusSync.cfg`, 'utf8')
+    nexusCfg = xml(nexusCfg, 'ControllerIP', config.settings.controllerIP)
+    nexusCfg = xml(nexusCfg, 'ServerID', server.id)
+    fs.writeFileSync(`${server.local}/Instance/NexusSync.cfg`, nexusCfg, 'utf8')
+    console.log(`\t- Nexus Settings Set.\n`)
+}
+
+
+
+function xml(file, field, replace) {
+    var extra = file.split(`<${field}`)[1].split(`>`)[0]
+    var value = file.split(`<${field}${extra}>`)[1].split(`</${field}>`)[0]
+    if (!replace) return value
+    return file.replace(`<${field}${extra}>${value}</${field}>`, `<${field}${extra}>${replace}</${field}>`)
 }
