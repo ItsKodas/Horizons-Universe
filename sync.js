@@ -95,6 +95,7 @@ for (server in config.servers) {
         fs.readdirSync(`${server.source}/Instance`).forEach(file => {
             if (file.includes('.cfg') && !file.includes('SpaceEngineers-Dedicated')) fs.copyFileSync(`${server.source}/Instance/${file}`, `${server.local}/Instance/${file}`)
         })
+        console.log(`\t- Config Files Replaced.`)
     }
 
     //! Nexus Settings

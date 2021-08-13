@@ -17,7 +17,7 @@
         },
         "Deepspace": {
             "local": "GeneralSector",
-            "source": "GeneralSector",
+            "source": "Sector",
             "port": 27021,
             "id": 2,
             "transfer": {
@@ -27,6 +27,17 @@
             }
         },
         "Demo 1": {
+            "local": "Sector",
+            "source": "Sector",
+            "port": 27022,
+            "id": 3,
+            "transfer": {
+                "files": false,
+                "configs": false,
+                "mods": false
+            }
+        },
+        "Demo 2": {
             "local": "Demo1",
             "source": "Sector",
             "port": 27023,
