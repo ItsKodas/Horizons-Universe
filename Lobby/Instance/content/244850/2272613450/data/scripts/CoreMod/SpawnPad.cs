@@ -51,6 +51,7 @@ namespace NexusSyncMod
 
         private List<IMyPlayer> ContainedPlayers = new List<IMyPlayer>();
 
+
         public SpawnPad(MyEntity entity)
         {
             block = (IMyCubeBlock)entity;

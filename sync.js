@@ -1,4 +1,5 @@
 const fs = require('fs')
+const unzipper = require('unzipper')
 var config = require('./config.json')
 
 
@@ -90,20 +91,47 @@ for (server in config.servers) {
     //! Config Transfer
     if (server.transfer.files) {
         fs.readdirSync(`${server.local}/Instance`).forEach(file => {
-            if (file.includes('.cfg') && !file.includes('SpaceEngineers-Dedicated')) fs.unlinkSync(`${server.local}/Instance/${file}`)
+            if (file.includes('.cfg') && !config.settings.blacklist.includes(file)) fs.unlinkSync(`${server.local}/Instance/${file}`)
         })
         fs.readdirSync(`${server.source}/Instance`).forEach(file => {
-            if (file.includes('.cfg') && !file.includes('SpaceEngineers-Dedicated')) fs.copyFileSync(`${server.source}/Instance/${file}`, `${server.local}/Instance/${file}`)
+            if (file.includes('.cfg') && !config.settings.blacklist.includes(file)) fs.copyFileSync(`${server.source}/Instance/${file}`, `${server.local}/Instance/${file}`)
         })
         console.log(`\t- Config Files Replaced.`)
     }
 
-    //! Nexus Settings
+    //! Plugin Transfer
+    /*if (server.transfer.plugins) {
+        fs.readdirSync(`${server.local}/Plugins`).forEach(file => {
+            if (file.includes('.cfg')) fs.unlinkSync(`${server.local}/Plugins/${file}`)
+        })
+        fs.readdirSync(`${server.source}/Plugins`).forEach(file => {
+            if (file.includes('.cfg')) fs.copyFileSync(`${server.source}/Plugins/${file}`, `${server.local}/Plugins/${file}`)
+        })
+        console.log(`\t- Plugins Replaced.`)
+    }*/
+
+
+
+    //? Nexus Settings
     var nexusCfg = fs.readFileSync(`${server.local}/Instance/NexusSync.cfg`, 'utf8')
     nexusCfg = xml(nexusCfg, 'ControllerIP', config.settings.controllerIP)
     nexusCfg = xml(nexusCfg, 'ServerID', server.id)
     fs.writeFileSync(`${server.local}/Instance/NexusSync.cfg`, nexusCfg, 'utf8')
-    console.log(`\t- Nexus Settings Set.\n`)
+    console.log(`\t- Nexus Settings Set.`)
+
+    //? InfluxDB Settings
+    if (fs.existsSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`)) {
+        var influxCfg = fs.readFileSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`, 'utf8')
+        influxCfg = xml(influxCfg, 'HostUrl', config.settings.influxDb)
+        influxCfg = xml(influxCfg, 'Bucket', server.local)
+        fs.writeFileSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`, influxCfg, 'utf8')
+        console.log(`\t- Influx Settings Set.`)
+    }
+
+
+
+    //! Server Edit Complate
+    console.log('\n')
 }
 
 

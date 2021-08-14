@@ -24,7 +24,7 @@ namespace NexusSyncMod
         public string ScriptName;
 
         [ProtoMember(4)]
-        public List<ulong> ContainedPlayers;
+        public List<ulong> ContainedPlayers = new List<ulong>();
 
         [ProtoMember(5)]
         public string CustomData;
