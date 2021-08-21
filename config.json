@@ -22,11 +22,22 @@
         },
         "Deepspace": {
             "local": "GeneralSector",
-            "source": "Sector",
+            "source": "GeneralSector",
             "port": 27021,
             "id": 2,
             "transfer": {
-                "files": true,
+                "files": false,
+                "configs": true,
+                "mods": true
+            }
+        },
+        "Sector": {
+            "local": "Sector",
+            "source": "Sector",
+            "port": 27022,
+            "id": 3,
+            "transfer": {
+                "files": false,
                 "configs": true,
                 "mods": true
             }

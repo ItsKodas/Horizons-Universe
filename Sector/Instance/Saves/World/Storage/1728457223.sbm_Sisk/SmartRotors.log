@@ -1,0 +1,7 @@
+[21:40:47:688] [I] [Sisk.SmartRotors.Mod->InitializeLogging()]: Logging initialized
+[21:40:47:694] [I] [Sisk.SmartRotors.Mod->InitializeNetwork()]: Initialize Network
+[21:40:47:698] [I] [Sisk.SmartRotors.Mod->InitializeNetwork()]: IsClient False, IsServer: True, IsDedicated: True
+[21:40:47:698] [I] [Sisk.SmartRotors.Mod->InitializeNetwork()]: Network initialized
+[21:41:13:461] [I] [Sisk.SmartRotors.Mod->InitializeSunTracker()]: SunTracker initialized
+[23:44:30:786] [I] [Sisk.SmartRotors.Mod->UnloadData()]: Cap network connections
+[23:44:30:787] [I] [Sisk.SmartRotors.Mod->UnloadData()]: Logging stopped

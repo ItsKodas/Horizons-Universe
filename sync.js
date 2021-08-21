@@ -1,5 +1,4 @@
 const fs = require('fs')
-const unzipper = require('unzipper')
 var config = require('./config.json')
 
 

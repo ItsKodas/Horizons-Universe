@@ -1,0 +1,8 @@
+[21:40:47:656] [I] [Sisk.PocketGear.Mod->InitializeLogging()]: Logging initialized
+[21:40:47:666] [I] [Sisk.PocketGear.Mod->InitializeNetwork()]: Initialize Network
+[21:40:47:673] [I] [Sisk.PocketGear.Mod->InitializeNetwork()]: IsClient False, IsServer: True, IsDedicated: True
+[21:40:47:673] [I] [Sisk.PocketGear.Mod->InitializeNetwork()]: Network initialized
+[21:40:47:675] [I] [Sisk.PocketGear.Mod->LoadSettings()]: Settings loaded
+[23:44:30:813] [I] [Sisk.PocketGear.Mod->UnloadData()]: Stopping damage handler
+[23:44:30:815] [I] [Sisk.PocketGear.Mod->UnloadData()]: Cap network connections
+[23:44:30:815] [I] [Sisk.PocketGear.Mod->UnloadData()]: Logging stopped

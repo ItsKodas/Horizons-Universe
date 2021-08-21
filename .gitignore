@@ -40,7 +40,6 @@ Sector/Instance/Storage/*.txt
 Sector/Instance/FoogsRewards.cfg
 Sector/Instance/*.log
 Sector/Instance/Content/
-Sector/Instance/Saves/
 
 GeneralSector/_CommonRedist/
 GeneralSector/appcache/
@@ -59,4 +58,3 @@ GeneralSector/Instance/Storage/*.txt
 GeneralSector/Instance/FoogsRewards.cfg
 GeneralSector/Instance/*.log
 GeneralSector/Instance/Content/
-GeneralSector/Instance/Saves/
