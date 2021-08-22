@@ -1,3 +1,4 @@
+Lobby/
 Sol/
 Demo1/
 Demo2/
@@ -9,19 +10,19 @@ Game Backups/Lobby/
 Game Backups/Deepspace/
 Game Backups/Sector/
 
-Lobby/_CommonRedist/
-Lobby/appcache/
-Lobby/config/
-Lobby/Content/
-Lobby/DedicatedServer64/
-Lobby/depotcache/
-Lobby/Logs/
-Lobby/steamapps/
-Lobby/steamcmd/
-Lobby/TempContent/
-Lobby/tmp/
-Lobby/Instance/*.log
-Lobby/Instance/Content/
+LobbyTemplate/_CommonRedist/
+LobbyTemplate/appcache/
+LobbyTemplate/config/
+LobbyTemplate/Content/
+LobbyTemplate/DedicatedServer64/
+LobbyTemplate/depotcache/
+LobbyTemplate/Logs/
+LobbyTemplate/steamapps/
+LobbyTemplate/steamcmd/
+LobbyTemplate/TempContent/
+LobbyTemplate/tmp/
+LobbyTemplate/Instance/*.log
+LobbyTemplate/Instance/Content/
 
 Sector/_CommonRedist/
 Sector/appcache/
@@ -41,20 +42,20 @@ Sector/Instance/FoogsRewards.cfg
 Sector/Instance/*.log
 Sector/Instance/Content/
 
-GeneralSector/_CommonRedist/
-GeneralSector/appcache/
-GeneralSector/config/
-GeneralSector/Content/
-GeneralSector/DedicatedServer64/
-GeneralSector/depotcache/
-GeneralSector/Logs/
-GeneralSector/steamapps/
-GeneralSector/steamcmd/
-GeneralSector/TempContent/
-GeneralSector/tmp/
-GeneralSector/Instance/Storage/1918681825.sbm_WeaponCore/
-GeneralSector/Instance/Storage/*.log
-GeneralSector/Instance/Storage/*.txt
-GeneralSector/Instance/FoogsRewards.cfg
-GeneralSector/Instance/*.log
-GeneralSector/Instance/Content/
+GeneralTemplate/_CommonRedist/
+GeneralTemplate/appcache/
+GeneralTemplate/config/
+GeneralTemplate/Content/
+GeneralTemplate/DedicatedServer64/
+GeneralTemplate/depotcache/
+GeneralTemplate/Logs/
+GeneralTemplate/steamapps/
+GeneralTemplate/steamcmd/
+GeneralTemplate/TempContent/
+GeneralTemplate/tmp/
+GeneralTemplate/Instance/Storage/1918681825.sbm_WeaponCore/
+GeneralTemplate/Instance/Storage/*.log
+GeneralTemplate/Instance/Storage/*.txt
+GeneralTemplate/Instance/FoogsRewards.cfg
+GeneralTemplate/Instance/*.log
+GeneralTemplate/Instance/Content/
