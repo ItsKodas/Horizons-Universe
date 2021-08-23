@@ -20,7 +20,7 @@ namespace Spawn
     public class Earth
     {
         private static readonly Logger Log = LogManager.GetCurrentClassLogger();
-        private static string PlanetName = "EarthLike-80028629d72429";
+        private static string PlanetName = "Paradisia23-1107526586d64045";
         private static bool SpawnNearFactionMates = true;
         private static float SpawnHeight = 5;
         private static float MinimalAirDensity = .80f;

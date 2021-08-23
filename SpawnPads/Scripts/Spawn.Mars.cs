@@ -17,10 +17,10 @@ using VRageMath;
 
 namespace Spawn
 {
-    public class Ravcor
+    public class Arkorus
     {
         private static readonly Logger Log = LogManager.GetCurrentClassLogger();
-        private static string PlanetName = "Ravcor-524884189d30233";
+        private static string PlanetName = "Mars-1856286034d45882";
         private static bool SpawnNearFactionMates = true;
         private static float SpawnHeight = 5;
         private static float MinimalAirDensity = .80f;

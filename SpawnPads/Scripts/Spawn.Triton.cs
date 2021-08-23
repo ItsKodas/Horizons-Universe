@@ -20,7 +20,7 @@ namespace Spawn
     public class Triton
     {
         private static readonly Logger Log = LogManager.GetCurrentClassLogger();
-        private static string PlanetName = "Triton-323624288d38058";
+        private static string PlanetName = "Triton-248609484d44205";
         private static bool SpawnNearFactionMates = true;
         private static float SpawnHeight = 5;
         private static float MinimalAirDensity = .80f;
