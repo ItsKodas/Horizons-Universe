@@ -122,7 +122,7 @@ for (server in config.servers) {
     if (fs.existsSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`)) {
         var influxCfg = fs.readFileSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`, 'utf8')
         influxCfg = xml(influxCfg, 'HostUrl', config.settings.influxDb)
-        influxCfg = xml(influxCfg, 'Bucket', server.local)
+        influxCfg = xml(influxCfg, 'Bucket', name)
         fs.writeFileSync(`${server.local}/Instance/TorchInfluxDbPlugin.cfg`, influxCfg, 'utf8')
         console.log(`\t- Influx Settings Set.`)
     }
