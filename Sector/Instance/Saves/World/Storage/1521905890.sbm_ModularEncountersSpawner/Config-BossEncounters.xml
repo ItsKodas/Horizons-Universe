@@ -66,7 +66,7 @@
   <PlayerSpawnCooldown>600</PlayerSpawnCooldown>
   <SpawnTimerTrigger>1200</SpawnTimerTrigger>
   <SignalActiveTimer>1200</SignalActiveTimer>
-  <MaxShipsPerArea>6</MaxShipsPerArea>
+  <MaxShipsPerArea>2</MaxShipsPerArea>
   <AreaSize>25000</AreaSize>
   <TriggerDistance>300</TriggerDistance>
   <PathCalculationAttempts>25</PathCalculationAttempts>

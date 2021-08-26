@@ -67,7 +67,7 @@
   <PlayerSpawnCooldown>300</PlayerSpawnCooldown>
   <SpawnTimerTrigger>60</SpawnTimerTrigger>
   <PlayerDistanceSpawnTrigger>6000</PlayerDistanceSpawnTrigger>
-  <MaxShipsPerArea>10</MaxShipsPerArea>
+  <MaxShipsPerArea>1</MaxShipsPerArea>
   <AreaSize>15000</AreaSize>
   <PlayerMaximumDistanceFromSurface>6000</PlayerMaximumDistanceFromSurface>
   <MinimumSpawnDistanceFromPlayers>3000</MinimumSpawnDistanceFromPlayers>

@@ -39,8 +39,8 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.3</ProceduralDensity>
-    <ProceduralSeed>0</ProceduralSeed>
+    <ProceduralDensity>0.4</ProceduralDensity>
+    <ProceduralSeed>3528335</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
     <ViewDistance>5000</ViewDistance>
@@ -138,11 +138,6 @@
     <ModItem FriendlyName="NexusSyncMod">
       <Name>2272613450.sbm</Name>
       <PublishedFileId>2272613450</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Automatic Ore Pickup">
-      <Name>657749341.sbm</Name>
-      <PublishedFileId>657749341</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="BuildInfo (extra block+terminal info, air leak finder)">
@@ -383,11 +378,6 @@
     <ModItem FriendlyName="Perpetually Perturbed Pirates">
       <Name>1992435623.sbm</Name>
       <PublishedFileId>1992435623</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tiered Stone Dusters">
-      <Name>1315723293.sbm</Name>
-      <PublishedFileId>1315723293</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Grated Catwalks Expansion">

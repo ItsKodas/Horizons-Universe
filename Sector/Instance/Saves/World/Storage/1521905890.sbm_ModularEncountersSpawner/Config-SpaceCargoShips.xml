@@ -67,7 +67,7 @@
   <FirstSpawnTime>300</FirstSpawnTime>
   <MinSpawnTime>780</MinSpawnTime>
   <MaxSpawnTime>1020</MaxSpawnTime>
-  <MaxShipsPerArea>15</MaxShipsPerArea>
+  <MaxShipsPerArea>2</MaxShipsPerArea>
   <AreaSize>15000</AreaSize>
   <MaxSpawnAttempts>10</MaxSpawnAttempts>
   <MinPathDistanceFromPlayer>2000</MinPathDistanceFromPlayer>
