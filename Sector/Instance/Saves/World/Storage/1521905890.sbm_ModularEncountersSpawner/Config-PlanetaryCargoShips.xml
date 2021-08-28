@@ -67,7 +67,7 @@
   <FirstSpawnTime>300</FirstSpawnTime>
   <MinSpawnTime>780</MinSpawnTime>
   <MaxSpawnTime>1020</MaxSpawnTime>
-  <MaxShipsPerArea>2</MaxShipsPerArea>
+  <MaxShipsPerArea>4</MaxShipsPerArea>
   <AreaSize>20000</AreaSize>
   <MaxSpawnAttempts>25</MaxSpawnAttempts>
   <PlayerSurfaceAltitude>6000</PlayerSurfaceAltitude>
@@ -83,7 +83,7 @@
   <PathStepCheckDistance>100</PathStepCheckDistance>
   <DespawnDistanceFromEndPath>750</DespawnDistanceFromEndPath>
   <DespawnDistanceFromPlayer>1000</DespawnDistanceFromPlayer>
-  <DespawnAltitude>5000</DespawnAltitude>
+  <DespawnAltitude>1000</DespawnAltitude>
   <UseMinimumSpeed>false</UseMinimumSpeed>
   <MinimumSpeed>10</MinimumSpeed>
   <UseSpeedOverride>false</UseSpeedOverride>

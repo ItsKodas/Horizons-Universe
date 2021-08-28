@@ -7,7 +7,7 @@
   <EnableRandomEncounters>true</EnableRandomEncounters>
   <EnablePlanetaryInstallations>true</EnablePlanetaryInstallations>
   <EnableBossEncounters>false</EnableBossEncounters>
-  <EnableCreatureSpawns>true</EnableCreatureSpawns>
+  <EnableCreatureSpawns>false</EnableCreatureSpawns>
   <EnableLegacySpaceCargoShipDetection>true</EnableLegacySpaceCargoShipDetection>
   <UseModIdSelectionForSpawning>true</UseModIdSelectionForSpawning>
   <UseWeightedModIdSelection>true</UseWeightedModIdSelection>
@@ -23,7 +23,7 @@
   <IgnorePlanetBlacklists>false</IgnorePlanetBlacklists>
   <ThreatRefreshTimerMinimum>20</ThreatRefreshTimerMinimum>
   <ThreatReductionHandicap>0</ThreatReductionHandicap>
-  <MaxGlobalNpcGrids>50</MaxGlobalNpcGrids>
+  <MaxGlobalNpcGrids>100</MaxGlobalNpcGrids>
   <PlayerWatcherTimerTrigger>10</PlayerWatcherTimerTrigger>
   <NpcDistanceCheckTimerTrigger>1</NpcDistanceCheckTimerTrigger>
   <NpcOwnershipCheckTimerTrigger>10</NpcOwnershipCheckTimerTrigger>
