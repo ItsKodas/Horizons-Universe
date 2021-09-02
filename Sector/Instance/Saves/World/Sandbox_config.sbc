@@ -175,11 +175,6 @@
       <PublishedFileId>946724937</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Hacking Computer v3">
-      <Name>728555954.sbm</Name>
-      <PublishedFileId>728555954</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="AQD - Conveyor Expansion">
       <Name>1864380341.sbm</Name>
       <PublishedFileId>1864380341</PublishedFileId>
@@ -388,11 +383,6 @@
     <ModItem FriendlyName="NPC Weapon Upgrades">
       <Name>1555044803.sbm</Name>
       <PublishedFileId>1555044803</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="More NPC Encounters V7 Faction Wars">
-      <Name>2315059547.sbm</Name>
-      <PublishedFileId>2315059547</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="AQD - Armor Expansion">

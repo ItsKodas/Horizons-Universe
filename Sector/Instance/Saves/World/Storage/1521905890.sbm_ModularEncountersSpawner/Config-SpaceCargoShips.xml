@@ -64,11 +64,11 @@
   <DisableWelder>false</DisableWelder>
   <DisableUpgradeModule>false</DisableUpgradeModule>
   <ModVersion>1.127</ModVersion>
-  <FirstSpawnTime>300</FirstSpawnTime>
-  <MinSpawnTime>780</MinSpawnTime>
-  <MaxSpawnTime>1020</MaxSpawnTime>
-  <MaxShipsPerArea>4</MaxShipsPerArea>
-  <AreaSize>15000</AreaSize>
+  <FirstSpawnTime>60</FirstSpawnTime>
+  <MinSpawnTime>800</MinSpawnTime>
+  <MaxSpawnTime>1800</MaxSpawnTime>
+  <MaxShipsPerArea>2</MaxShipsPerArea>
+  <AreaSize>20000</AreaSize>
   <MaxSpawnAttempts>10</MaxSpawnAttempts>
   <MinPathDistanceFromPlayer>2000</MinPathDistanceFromPlayer>
   <MaxPathDistanceFromPlayer>4000</MaxPathDistanceFromPlayer>

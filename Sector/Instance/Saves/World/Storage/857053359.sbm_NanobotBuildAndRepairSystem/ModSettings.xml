@@ -35,9 +35,9 @@
       <float>50</float>
     </GrindColorDefault>
     <UseGrindJanitorFixed>false</UseGrindJanitorFixed>
-    <UseGrindJanitorDefault>NoOwnership Enemies</UseGrindJanitorDefault>
+    <UseGrindJanitorDefault>NoOwnership</UseGrindJanitorDefault>
     <GrindJanitorOptionsDefault />
-    <AllowedGrindJanitorRelations>NoOwnership Neutral Enemies</AllowedGrindJanitorRelations>
+    <AllowedGrindJanitorRelations>NoOwnership</AllowedGrindJanitorRelations>
     <ShowAreaFixed>false</ShowAreaFixed>
     <AreaSizeFixed>false</AreaSizeFixed>
     <AreaOffsetFixed>false</AreaOffsetFixed>
