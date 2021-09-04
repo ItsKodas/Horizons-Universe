@@ -180,19 +180,9 @@
       <PublishedFileId>1864380341</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="(Patch) Nanobot Drill And Fill System">
-      <Name>2562768059.sbm</Name>
-      <PublishedFileId>2562768059</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Nanobot Drill and Fill System">
       <Name>1879455650.sbm</Name>
       <PublishedFileId>1879455650</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="(Patch) Nanobot Build And Repair System">
-      <Name>2562491248.sbm</Name>
-      <PublishedFileId>2562491248</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Nanobot Build and Repair System">
